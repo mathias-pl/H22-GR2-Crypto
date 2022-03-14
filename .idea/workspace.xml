@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/LEM_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/LogInScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/PageZeroScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/SignUpScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/CustomButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/PageZeroScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/PageZeroScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +31,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LemFinance/src/Components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components\CustomButton" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\Images" />
     </key>
   </component>
@@ -49,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647282694274</updated>
-      <workItem from="1647282700145" duration="3155000" />
+      <workItem from="1647282700145" duration="6345000" />
     </task>
     <servers />
   </component>
