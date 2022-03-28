@@ -7,15 +7,15 @@ function Home(props) {
     return (
         <View style={styles.container}>
             <Image
-                source={require("./../../../assets/images/logo-transparent_bllL..png")}
+                source={require("./../../../assets/images/LEM_Logo.png")}
                 resizeMode="contain"
                 style={styles.logo}
             ></Image>
             <MaterialButtonPrimary
+                caption="S'INSCRIRE"
                 style={styles.identificationButton}
             ></MaterialButtonPrimary>
             <MaterialButtonPrimary1
-                caption="BUTTON"
                 caption="CRÉER UN COMPTE"
                 style={styles.accountCreationButton}
             ></MaterialButtonPrimary1>
