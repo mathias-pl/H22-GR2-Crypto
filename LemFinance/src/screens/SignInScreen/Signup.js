@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Image } from "react-native";
-import MaterialUnderlineTextbox from "../components/MaterialUnderlineTextbox";
-import MaterialButtonPrimary from "../components/MaterialButtonPrimary";
-import MaterialUnderlineTextbox1 from "../components/MaterialUnderlineTextbox1";
+import MaterialButtonPrimary from "../../Components/CustomButton/MaterialButtonPrimary"
+import MaterialUnderlineTextbox from "../../Components/CustomButton/MaterialUnderlineTextbox";
+import MaterialUnderlineTextbox1 from "../../Components/CustomButton/MaterialUnderlineTextbox1";
 
 function Signup(props) {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../assets/images/logo-transparent_bllL..png")}
+        source={require("./../../../assets/images/LEM_Logo.png")}
         resizeMode="contain"
         style={styles.logo1}
       ></Image>
@@ -33,6 +33,7 @@ function Signup(props) {
         style={styles.emailInput4}
       ></MaterialUnderlineTextbox>
       <MaterialButtonPrimary
+          caption="CONNEXION"
         style={styles.connexionButton1}
       ></MaterialButtonPrimary>
       <View style={styles.materialUnderlineTextbox1Row}>
