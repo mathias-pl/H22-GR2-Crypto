@@ -3,7 +3,7 @@ import {Text, View, Image, StyleSheet, Pressable, useWindowDimensions} from 'rea
 
 const CustomButton = ({onPress, text, color}) => {
     return (
-        <Pressable onPress={onPress} style={[styles.container, styles[`Container_${type}`]]}>
+        <Pressable onPress={onPress} style={[styles.container, styles[`Container_${color}`]]}>
             <Text style={styles.text}>{text}</Text>
         </Pressable>)
 }

@@ -13,8 +13,8 @@ const PageZeroScreen = () => {
     return (
         <View style={styles.root}>
             <Image source={Logo} style={[styles.logo, {height: height*0.3}]} resizeMode="contain"/>
-            <CustomButton onPress={onSignInPressed} text={"S'indentifier"} color={"Blue"}/>
-            <CustomButton onPress={onSignInPressed} text={"Créer un compte"} color={"Grey"}/>
+            <CustomButton onPress={onSignInPressed} text={"S'indentifier"} color="Blue"/>
+            <CustomButton onPress={onSignInPressed} text={"Créer un compte"} color="Grey"/>
         </View>)
 }
 

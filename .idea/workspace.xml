@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/CustomButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/logo-transparent_bllL..png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/MaterialButtonPrimary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/MaterialButtonPrimary1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/MaterialRightIconTextbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/MaterialUnderlineTextbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/MaterialUnderlineTextbox1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/CustomButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/CustomButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/PageZeroScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/PageZeroScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +48,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components\CustomButton" />
+      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\images" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\Images" />
     </key>
   </component>
@@ -52,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647282694274</updated>
-      <workItem from="1647282700145" duration="6345000" />
+      <workItem from="1647282700145" duration="6458000" />
+      <workItem from="1648488402738" duration="2220000" />
     </task>
     <servers />
   </component>
