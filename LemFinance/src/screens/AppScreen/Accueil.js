@@ -20,7 +20,7 @@ function Accueil(props) {
                 <View style={styles.rect}>
                   <View style={styles.imageRow}>
                     <Image
-                        source={require("./../../../assets/images/BtcIcon.png")}
+                        source={require("../../../assets/images/BtcIcon.png")}
                         resizeMode="contain"
                         style={styles.image}
                     ></Image>
@@ -33,7 +33,7 @@ function Accueil(props) {
                 <View style={styles.rect2}>
                   <View style={styles.image2Row}>
                     <Image
-                        source={require("./../../../assets/images/BtcIcon.png")}
+                        source={require("../../../assets/images/BtcIcon.png")}
                         resizeMode="contain"
                         style={styles.image2}
                     ></Image>
@@ -46,7 +46,7 @@ function Accueil(props) {
                 <View style={styles.rect1}>
                   <View style={styles.image1Row}>
                     <Image
-                        source={require("./../../../assets/images/BtcIcon.png")}
+                        source={require("../../../assets/images/BtcIcon.png")}
                         resizeMode="contain"
                         style={styles.image1}
                     ></Image>
