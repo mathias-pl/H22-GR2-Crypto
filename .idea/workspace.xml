@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/LogInScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/ConnApi" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/ConnApi.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\screens\SignInScreen" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components\CustomButton" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\images" />
