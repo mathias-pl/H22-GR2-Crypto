@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
         borderColor: "#D9D5DC",
         backgroundColor: "transparent",
         flexDirection: "row",
-        alignItems: "center"
+        alignItems: "center",
+
     },
     inputStyle: {
         color: "#000",
@@ -27,8 +28,9 @@ const styles = StyleSheet.create({
         alignSelf: "stretch",
         flex: 1,
         lineHeight: 16,
-        paddingTop: 16,
-        paddingBottom: 8
+        paddingTop: 10,
+        paddingBottom: 8,
+        marginLeft:20
     }
 });
 
