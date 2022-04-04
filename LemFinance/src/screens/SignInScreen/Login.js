@@ -3,8 +3,6 @@ import { StyleSheet, View, Image } from "react-native";
 import MaterialButtonPrimary from "../../Components/CustomButton/MaterialButtonPrimary";
 import MaterialUnderlineTextbox from "../../Components/CustomButton/MaterialUnderlineTextbox";
 
-class Login extends ConnApi{}
-
 function Login(props) {
   return (
     <View style={styles.container}>
