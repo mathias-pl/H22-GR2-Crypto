@@ -1,134 +1,138 @@
-import React, {Component} from "react";
-import {StyleSheet, View, Image, KeyboardAvoidingView} from "react-native";
+import React, { Component } from "react";
+import { StyleSheet, View, Image } from "react-native";
 import MaterialButtonPrimary from "../../Components/CustomButton/MaterialButtonPrimary"
 import MaterialUnderlineTextbox from "../../Components/CustomButton/MaterialUnderlineTextbox";
 import MaterialUnderlineTextbox1 from "../../Components/CustomButton/MaterialUnderlineTextbox1";
 
+class Signup extends ConnApi{}
+
 function Signup(props) {
-    return (
+  return (
+    <View style={styles.container}>
+      <Image
+        source={require("./../../../assets/images/LEM_Logo.png")}
+        resizeMode="contain"
+        style={styles.logo1}
+      ></Image>
+      <MaterialUnderlineTextbox
+        inputStyle="Placeholder"
+        inputStyle="   EMAIL"
+        style={styles.emailInput1}
+      ></MaterialUnderlineTextbox>
+      <MaterialUnderlineTextbox
+        inputStyle="Placeholder"
+        inputStyle="   NOM D'UTILISATEUR"
+        style={styles.emailInput2}
+        onChangeText={(val) => this.onChangeText('username', val)}
+      ></MaterialUnderlineTextbox>
+      <MaterialUnderlineTextbox
+        inputStyle="Placeholder"
+        inputStyle="   MOT DE PASSE"
+        style={styles.emailInput3}
+        onChangeText={(val) => this.onChangeText('password', val)}
 
-        <View style={styles.container}>
+      ></MaterialUnderlineTextbox>
+      <MaterialUnderlineTextbox
+        inputStyle="Placeholder"
+        inputStyle="   RÉPÉTER LE MOT DE PASSE"
+        style={styles.emailInput4}
+      ></MaterialUnderlineTextbox>
+      <MaterialButtonPrimary
+          caption="CONNEXION"
+        style={styles.connexionButton1}
+        onPress={this.signUp}
+      ></MaterialButtonPrimary>
+      <View style={styles.materialUnderlineTextbox1Row}>
+        <MaterialUnderlineTextbox1
+          inputStyle="Placeholder"
+          inputStyle="   PRÉNOM"
+          style={styles.materialUnderlineTextbox1}
+          onChangeText={(val) => this.onChangeText('prenom', val)}
 
-            <Image
-                source={require("./../../../assets/images/LEM_Logo.png")}
-                resizeMode="contain"
-                style={styles.logo1}
-            />
+        ></MaterialUnderlineTextbox1>
+        <MaterialUnderlineTextbox1
+          inputStyle="Placeholder"
+          inputStyle="   PRÉNOM"
+          style={styles.materialUnderlineTextbox2}
+          onChangeText={(val) => this.onChangeText('nom', val)}
 
-            <MaterialUnderlineTextbox
-                inputStyle="Placeholder"
-                inputStyle="   EMAIL"
-                style={styles.emailInput1}
-            />
-            <MaterialUnderlineTextbox
-                inputStyle="Placeholder"
-                inputStyle="   NOM D'UTILISATEUR"
-                style={styles.emailInput2}
-            />
-            <MaterialUnderlineTextbox
-                inputStyle="Placeholder"
-                inputStyle="   MOT DE PASSE"
-                style={styles.emailInput3}
-            />
-
-            <MaterialUnderlineTextbox
-                inputStyle="Placeholder"
-                inputStyle="   RÉPÉTER LE MOT DE PASSE"
-                style={styles.emailInput4}
-            />
-
-            <MaterialButtonPrimary
-                caption="CONNEXION"
-                style={styles.connexionButton1}
-            />
-            <View style={styles.materialUnderlineTextbox1Row}>
-                <MaterialUnderlineTextbox1
-                    inputStyle="Placeholder"
-                    inputStyle="   PRÉNOM"
-                    style={styles.materialUnderlineTextbox1}
-                />
-                <MaterialUnderlineTextbox1
-                    inputStyle="Placeholder"
-                    inputStyle="   NOM"
-                    style={styles.materialUnderlineTextbox2}
-                />
-            </View>
-        </View>
-
-    );
+        ></MaterialUnderlineTextbox1>
+      </View>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1
-    },
-    logo1: {
-        height: 120,
-        width: 120,
-        marginTop: 76,
-        alignSelf: "center"
-    },
-    emailInput1: {
-        height: 43,
-        width: 300,
-        borderRadius: 12,
-        backgroundColor: "rgba(230, 230, 230,1)",
-        marginTop: 168,
-        marginLeft: 38
-    },
-    emailInput2: {
-        height: 43,
-        width: 300,
-        borderRadius: 12,
-        backgroundColor: "rgba(230, 230, 230,1)",
-        marginTop: 15,
-        marginLeft: 38
-    },
-    emailInput3: {
-        height: 43,
-        width: 300,
-        borderRadius: 12,
-        backgroundColor: "rgba(230, 230, 230,1)",
-        marginTop: 49,
-        marginLeft: 43
-    },
-    emailInput4: {
-        height: 43,
-        width: 300,
-        borderRadius: 12,
-        backgroundColor: "rgba(230, 230, 230,1)",
-        marginTop: 11,
-        marginLeft: 43
-    },
-    connexionButton1: {
-        height: 46,
-        width: 274,
-        borderRadius: 12,
-        backgroundColor: "rgba(77,166,169,1)",
-        marginTop: 70,
-        marginLeft: 51
-    },
-    materialUnderlineTextbox1: {
-        height: 43,
-        width: 144,
-        backgroundColor: "rgba(230, 230, 230,1)",
-        borderRadius: 12,
-        marginLeft: -1
-    },
-    materialUnderlineTextbox2: {
-        height: 43,
-        width: 144,
-        backgroundColor: "rgba(230, 230, 230,1)",
-        borderRadius: 12,
-        marginLeft: 11
-    },
-    materialUnderlineTextbox1Row: {
-        height: 43,
-        flexDirection: "row",
-        marginTop: -418,
-        marginLeft: 39,
-        marginRight: 38
-    }
+  container: {
+    flex: 1
+  },
+  logo1: {
+    height: 120,
+    width: 120,
+    marginTop: 76,
+    alignSelf: "center"
+  },
+  emailInput1: {
+    height: 43,
+    width: 300,
+    borderRadius: 12,
+    backgroundColor: "rgba(230, 230, 230,1)",
+    marginTop: 168,
+    marginLeft: 38
+  },
+  emailInput2: {
+    height: 43,
+    width: 300,
+    borderRadius: 12,
+    backgroundColor: "rgba(230, 230, 230,1)",
+    marginTop: 15,
+    marginLeft: 38
+  },
+  emailInput3: {
+    height: 43,
+    width: 300,
+    borderRadius: 12,
+    backgroundColor: "rgba(230, 230, 230,1)",
+    marginTop: 49,
+    marginLeft: 43
+  },
+  emailInput4: {
+    height: 43,
+    width: 300,
+    borderRadius: 12,
+    backgroundColor: "rgba(230, 230, 230,1)",
+    marginTop: 11,
+    marginLeft: 43
+  },
+  connexionButton1: {
+    height: 46,
+    width: 274,
+    borderRadius: 12,
+    backgroundColor: "rgba(77,166,169,1)",
+    marginTop: 70,
+    marginLeft: 51
+  },
+  materialUnderlineTextbox1: {
+    height: 43,
+    width: 144,
+    backgroundColor: "rgba(230, 230, 230,1)",
+    borderRadius: 12,
+    marginLeft: -1
+  },
+  materialUnderlineTextbox2: {
+    height: 43,
+    width: 144,
+    backgroundColor: "rgba(230, 230, 230,1)",
+    borderRadius: 12,
+    marginLeft: 11
+  },
+  materialUnderlineTextbox1Row: {
+    height: 43,
+    flexDirection: "row",
+    marginTop: -418,
+    marginLeft: 39,
+    marginRight: 38
+  }
 });
 
 export default Signup;
