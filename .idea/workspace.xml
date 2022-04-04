@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/MaterialUnderlineTextbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/Components/CustomButton/MaterialUnderlineTextbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/LogInScreen.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <updated>1647282694274</updated>
       <workItem from="1647282700145" duration="6458000" />
       <workItem from="1648488402738" duration="5564000" />
-      <workItem from="1649092323748" duration="1690000" />
+      <workItem from="1649092323748" duration="2019000" />
     </task>
     <servers />
   </component>
