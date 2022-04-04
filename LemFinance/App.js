@@ -1,12 +1,9 @@
 import React from "react";
 import { StyleSheet, Text, View } from 'react-native';
-import SignUpScreen from "./src/screens/SignInScreen"
-import PageZeroScreen from "./src/screens/SignInScreen/PageZeroScreen";
 import Home from "./src/screens/SignInScreen/Home";
 import Login from "./src/screens/SignInScreen/Login";
 import Signup from "./src/screens/SignInScreen/Signup";
 import Accueil from "./src/screens/SignInScreen/Accueil";
-import LogInScreen from "./src/screens/SignInScreen/LogInScreen";
 
 export default function App() {
   return (
@@ -14,9 +11,8 @@ export default function App() {
       {/*<Home/>*/}
       {/*<Login/>*/}
       {/*<Signup/>*/}
-      {/*<Accueil/>*/}
+      <Accueil/>
 
-      <PageZeroScreen></PageZeroScreen>
     </View>
   );
 }

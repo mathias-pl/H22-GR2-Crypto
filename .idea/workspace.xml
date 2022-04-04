@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LemFinance/assets/fonts/roboto-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/BtcIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCard122.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithoutImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconButtonsFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconButtonsFooter1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconTextButtonsFooter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/LogInScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Accueil.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +47,11 @@
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\fonts" />
+      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\images" />
+      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components\Card" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\screens\SignInScreen" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components\CustomButton" />
-      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\images" />
-      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\Images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,7 +64,7 @@
       <updated>1647282694274</updated>
       <workItem from="1647282700145" duration="6458000" />
       <workItem from="1648488402738" duration="5564000" />
-      <workItem from="1649092323748" duration="2019000" />
+      <workItem from="1649092323748" duration="3269000" />
     </task>
     <servers />
   </component>
