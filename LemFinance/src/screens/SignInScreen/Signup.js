@@ -4,6 +4,35 @@ import MaterialButtonPrimary from "../../Components/CustomButton/MaterialButtonP
 import MaterialUnderlineTextbox from "../../Components/CustomButton/MaterialUnderlineTextbox";
 import MaterialUnderlineTextbox1 from "../../Components/CustomButton/MaterialUnderlineTextbox1";
 
+const URL = 'http://34.95.8.78/api/login';
+
+connApiSignup = async () => {
+    const { username, password, email, phone_number } = this.state;
+    try {
+
+      var response = await fetch(URL, {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          _id: username,
+          password: password,
+          email: email,
+          firstName: firstname,
+          lastName: lastname,
+        }),
+      })
+
+      var data = await response.json();
+
+      alert(data["success"]);
+      
+    } catch (err) {
+      console.log('error signing up: ', err);
+    }
+  };
 function Signup(props) {
     return (
         //Main view
@@ -56,6 +85,7 @@ function Signup(props) {
             <MaterialButtonPrimary
                 caption="CONNEXION"
                 style={styles.connexionButton1}
+                onPress={this.connApiSignup}
             />
         </View>
 
@@ -141,7 +171,23 @@ const styles = StyleSheet.create({
         // marginLeft: 39,
         // marginRight: 38
     },
-    textBoxStyle: {}
+    textBoxStyle: {},
+    input: {
+        width: 350,
+        height: 55,
+        backgroundColor: '#42A5F5',
+        margin: 10,
+        padding: 8,
+        color: 'white',
+        borderRadius: 14,
+        fontSize: 18,
+        fontWeight: '500',
+      },
+      container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      }
 });
 
 export default Signup;
