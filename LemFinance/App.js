@@ -11,8 +11,8 @@ export default function App() {
     <View style={styles.root}>
 
       {/*<Home/>*/}
-      <Login/>
-      {/*<Signup/>*/}
+      {/*<Login/>*/}
+      <Signup/>
       {/*<Accueil/>*/}
       {/*<DefaultAppScreen/>*/}
 

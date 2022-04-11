@@ -15,7 +15,7 @@ function MaterialUnderlineTextbox(props) {
 
 
 const styles = StyleSheet.create({
-    container: {
+    TBcontainer: {
         borderBottomWidth: 1,
         borderColor: "#D9D5DC",
         backgroundColor: "transparent",
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
 
     },
-    inputStyle: {
+    TBinputStyle: {
         color: "#000",
         paddingRight: 5,
         fontSize: 16,

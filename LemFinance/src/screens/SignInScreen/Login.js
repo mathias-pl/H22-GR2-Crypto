@@ -1,5 +1,15 @@
 import React, {Component} from "react";
-import {StyleSheet, View, Image, KeyboardAvoidingView, TextInput, ScrollView, Button} from "react-native";
+import {
+    StyleSheet,
+    View,
+    Image,
+    KeyboardAvoidingView,
+    TextInput,
+    ScrollView,
+    Button,
+    Text,
+    TouchableOpacity
+} from "react-native";
 import MaterialButtonPrimary from "../../Components/CustomButton/MaterialButtonPrimary";
 import MaterialUnderlineTextbox from "../../Components/CustomButton/MaterialUnderlineTextbox";
 
@@ -14,28 +24,27 @@ export default class Login extends React.Component {
 
     connApiLogin = async () => {
         const {username, password} = this.state;
-        alert(username)
-        // try {
-        //
-        //     var response = await fetch(URL, {
-        //         method: 'POST',
-        //         headers: {
-        //             'Accept': 'application/json',
-        //             'Content-Type': 'application/json',
-        //         },
-        //         body: JSON.stringify({
-        //             _id: username,
-        //             password: password,
-        //         }),
-        //     })
-        //
-        //     var data = await response.json();
-        //
-        //     alert(data["success"]);
-        //
-        // } catch (err) {
-        //     console.log('error signing up: ', err);
-        // }
+        try {
+
+            var response = await fetch(URL, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    _id: username,
+                    password: password,
+                }),
+            })
+
+            var data = await response.json();
+
+            alert(data["success"]);
+
+        } catch (err) {
+            console.log('error signing up: ', err);
+        }
     };
 
     render() {
@@ -50,33 +59,37 @@ export default class Login extends React.Component {
                 <KeyboardAvoidingView behavior="position">
                     <ScrollView bounces={false}>
                         <View>
-                            <MaterialUnderlineTextbox
-                                inputStyle="Placeholder"
-                                inputStyle="NOM D'UTILISATEUR"
-                                style={styles.nomUtilisateurInput}
-                            />
 
-                            <TextInput
-                                placeholder="Username"
-                                onChangeText={(val) => this.onChangeText('username', val)}
-                            ></TextInput>
+                            <View style={styles.nomUtilisateurInput}>
+                                <View style={styles.TBcontainer}>
+                                    <TextInput
+                                        placeholder="NOM D'UTILISATEUR"
+                                        style={styles.TBinputStyle}
+                                        onChangeText={(val) => this.onChangeText('username', val)}
+                                    />
+                                </View>
+                            </View>
+                            <View style={styles.passwordInput}>
+                                <View style={styles.TBcontainer}>
+                                    <TextInput
+                                        placeholder="MOT DE PASSE"
+                                        style={styles.TBinputStyle}
+                                        secureTextEntry={true}
+                                        onChangeText={(val) => this.onChangeText('password', val)}
+                                    />
+                                </View>
+                            </View>
 
-                            <MaterialUnderlineTextbox
-                                inputStyle="Placeholder"
-                                inputStyle="MOT DE PASSE"
-                                style={styles.passwordInput}
-                                onChangeText={(val) => this.onChangeText('password', val)}
-                            />
                         </View>
                     </ScrollView>
                 </KeyboardAvoidingView>
 
-                {/*<MaterialButtonPrimary*/}
-                {/*    caption="CONNEXION"*/}
-                {/*    style={styles.connexionButton}*/}
-                {/*    onPress={this.connApiLogin}*/}
-                {/*/>*/}
-                <Button title="Log in" onPress={this.connApiLogin}/>
+                <View style={styles.connexionButton}>
+                    <TouchableOpacity style={styles.BTcontainer}
+                                      onPress={this.connApiLogin}>
+                        <Text style={styles.BTcaption}>{"CONNEXION"}</Text>
+                    </TouchableOpacity>
+                </View>
             </View>
         );
     }
@@ -131,5 +144,43 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: '500',
     },
+    TBcontainer: {
+        borderBottomWidth: 1,
+        borderColor: "#D9D5DC",
+        backgroundColor: "transparent",
+        flexDirection: "row",
+        alignItems: "center",
 
+    },
+    TBinputStyle: {
+        color: "#000",
+        paddingRight: 5,
+        fontSize: 16,
+        alignSelf: "stretch",
+        flex: 1,
+        lineHeight: 16,
+        paddingTop: 15,
+        paddingBottom: 8,
+        marginLeft: 20
+    },
+    BTcontainer: {
+        alignItems: "center",
+        padding: 10,
+        borderRadius: 2,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 1,
+            height: 1
+        },
+        shadowOpacity: 0.35,
+        shadowRadius: 5,
+
+        minWidth: 88,
+
+    },
+    BTcaption: {
+        color: "#fff",
+        fontSize: 14,
+
+    }
 });
