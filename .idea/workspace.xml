@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/CryptoPriceCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/DefaultAppScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/DefaultAppScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Signup.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <workItem from="1649092323748" duration="3621000" />
       <workItem from="1649105092985" duration="1923000" />
       <workItem from="1649118807494" duration="1016000" />
-      <workItem from="1649696773468" duration="2964000" />
+      <workItem from="1649696773468" duration="3761000" />
     </task>
     <servers />
   </component>

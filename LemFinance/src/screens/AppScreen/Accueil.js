@@ -7,13 +7,15 @@ function Accueil(props) {
     return (
         <ScrollView style={styles.container}>
             <View style={styles.materialCardWithoutImageColumn}>
+                {/*<View style={styles.group}>*/}
+                {/*    <Text style={styles.nomUtilisateur}>nomUtilisateur</Text>*/}
+                {/*    <Text style={styles.montantArgent}>montantArgent</Text>*/}
+                {/*</View>*/}
+
                 <MaterialCardWithoutImage
                     style={styles.materialCardWithoutImage}
                 ></MaterialCardWithoutImage>
-                <View style={styles.group}>
-                    <Text style={styles.nomUtilisateur}>nomUtilisateur</Text>
-                    <Text style={styles.montantArgent}>montantArgent</Text>
-                </View>
+
                 <View style={styles.group5}>
                     <View style={styles.group2Row}>
                         <View style={styles.group2}>

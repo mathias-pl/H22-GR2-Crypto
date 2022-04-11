@@ -11,10 +11,10 @@ export default function App() {
     <View style={styles.root}>
 
       {/*<Home/>*/}
-      {/*<Login/>*/}
+      <Login/>
       {/*<Signup/>*/}
       {/*<Accueil/>*/}
-      <DefaultAppScreen/>
+      {/*<DefaultAppScreen/>*/}
 
     </View>
   );
