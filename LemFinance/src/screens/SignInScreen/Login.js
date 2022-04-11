@@ -3,6 +3,8 @@ import {StyleSheet, View, Image, KeyboardAvoidingView, ScrollView, Platform} fro
 import MaterialButtonPrimary from "../../Components/CustomButton/MaterialButtonPrimary";
 import MaterialUnderlineTextbox from "../../Components/CustomButton/MaterialUnderlineTextbox";
 
+const URL = 'http://34.95.8.78/api/login';
+
 connApiLogin = async () => {
     const { username, password, email, phone_number } = this.state;
     try {
