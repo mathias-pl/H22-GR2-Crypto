@@ -2,15 +2,17 @@ import React, {Component} from "react";
 import {StyleSheet, View, TextInput, KeyboardAvoidingView} from "react-native";
 
 function MaterialUnderlineTextbox(props) {
+
     return (
-            <View style={[styles.container, props.style]}>
-                <TextInput
-                    placeholder={props.inputStyle || "Placeholder"}
-                    style={styles.inputStyle}
-                ></TextInput>
-            </View>
+        <View style={[styles.container, props.style]}>
+            <TextInput
+                placeholder={props.inputStyle || "Placeholder"}
+                style={styles.inputStyle}
+            />
+        </View>
     );
 }
+
 
 const styles = StyleSheet.create({
     container: {
@@ -30,7 +32,7 @@ const styles = StyleSheet.create({
         lineHeight: 16,
         paddingTop: 10,
         paddingBottom: 8,
-        marginLeft:20
+        marginLeft: 20
     }
 });
 
