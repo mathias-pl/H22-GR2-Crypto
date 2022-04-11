@@ -10,9 +10,6 @@ import {
     Text,
     TouchableOpacity
 } from "react-native";
-import MaterialButtonPrimary from "../../Components/CustomButton/MaterialButtonPrimary";
-import MaterialUnderlineTextbox from "../../Components/CustomButton/MaterialUnderlineTextbox";
-
 
 const URL = 'http://34.95.8.78/api/login';
 

@@ -12,9 +12,9 @@ export default function App() {
 
       {/*<Home/>*/}
       {/*<Login/>*/}
-      <Signup/>
+      {/*<Signup/>*/}
       {/*<Accueil/>*/}
-      {/*<DefaultAppScreen/>*/}
+      <DefaultAppScreen/>
 
     </View>
   );
