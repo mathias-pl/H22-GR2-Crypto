@@ -3,6 +3,30 @@ import {StyleSheet, View, Image, KeyboardAvoidingView, ScrollView, Platform} fro
 import MaterialButtonPrimary from "../../Components/CustomButton/MaterialButtonPrimary";
 import MaterialUnderlineTextbox from "../../Components/CustomButton/MaterialUnderlineTextbox";
 
+connApiLogin = async () => {
+    const { username, password, email, phone_number } = this.state;
+    try {
+
+      var response = await fetch(URL, {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          _id: username,
+          password: password,
+        }),
+      })
+
+      var data = await response.json();
+
+      alert(data["success"]);
+      
+    } catch (err) {
+      console.log('error signing up: ', err);
+    }
+  };
 function Login(props) {
     return (
         <View>
@@ -11,7 +35,6 @@ function Login(props) {
                 resizeMode="contain"
                 style={styles.logo}
             ></Image>
-
             <KeyboardAvoidingView behavior="position">
                 <ScrollView bounces={false}>
                     <View>
@@ -32,6 +55,7 @@ function Login(props) {
             <MaterialButtonPrimary
                 caption="CONNEXION"
                 style={styles.connexionButton}
+                onPress={this.connApiLogin}
             />
         </View>
     );
