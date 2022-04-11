@@ -54,7 +54,7 @@ function Signup(props) {
             </KeyboardAvoidingView>
             {/*Button*/}
             <MaterialButtonPrimary
-                caption="CONNEXION"
+                caption="INSCRIPTION"
                 style={styles.connexionButton1}
             />
         </View>

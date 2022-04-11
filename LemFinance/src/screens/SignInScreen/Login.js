@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
         borderRadius: 12,
         backgroundColor: "rgba(77,166,169,1)",
         marginTop: 31,
-        marginLeft: 51
+        alignSelf:"center"
     },
     emailInput: {
         height: 43,

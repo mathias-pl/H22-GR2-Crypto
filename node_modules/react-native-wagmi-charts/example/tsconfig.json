@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "alias": {}
+  },
+  "extends": "../tsconfig.json"
+}
