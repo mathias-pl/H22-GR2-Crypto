@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/FicheCrypto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/barreMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/resumeCompteAccueil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Scroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/CryptoPriceCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCard122.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithoutImage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconButtonsFooter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconButtonsFooter1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconTextButtonsFooter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/DefaultAppScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/DefaultAppScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +56,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/LemFinance/src/Components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -46,11 +70,11 @@
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mathi\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components\Card" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\screens\AppScreen" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\fonts" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\assets\images" />
       <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\Components\Card" />
-      <recent name="C:\Users\motas\Documents\GitHub\H22-GR2-Crypto\LemFinance\src\screens\SignInScreen" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,6 +92,9 @@
       <workItem from="1649118807494" duration="1016000" />
       <workItem from="1649696773468" duration="13552000" />
       <workItem from="1650035315751" duration="336000" />
+      <workItem from="1650035751895" duration="4709000" />
+      <workItem from="1650052290828" duration="1570000" />
+      <workItem from="1650120344954" duration="7548000" />
     </task>
     <servers />
   </component>
@@ -84,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

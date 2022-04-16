@@ -4,6 +4,7 @@ import Home from "./src/screens/SignInScreen/Home";
 import Login from "./src/screens/SignInScreen/Login";
 import Signup from "./src/screens/SignInScreen/Signup";
 import Accueil from "./src/screens/AppScreen/Accueil";
+import Scroll from "./src/screens/SignInScreen/Scroll";
 import DefaultAppScreen from "./src/screens/AppScreen/DefaultAppScreen";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       {/*<Login/>*/}
       {/*<Signup/>*/}
       {/*<Accueil/>*/}
+      {/*<Scroll/>*/}
       <DefaultAppScreen/>
 
     </View>

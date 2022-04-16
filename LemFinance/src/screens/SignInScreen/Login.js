@@ -1,14 +1,6 @@
 import React, {Component} from "react";
 import {
-    StyleSheet,
-    View,
-    Image,
-    KeyboardAvoidingView,
-    TextInput,
-    ScrollView,
-    Button,
-    Text,
-    TouchableOpacity
+    StyleSheet, View, Image, KeyboardAvoidingView, TextInput, ScrollView, Button, Text, TouchableOpacity
 } from "react-native";
 
 const URL = 'http://34.95.8.78/api/login';
@@ -24,14 +16,10 @@ export default class Login extends React.Component {
         try {
 
             var response = await fetch(URL, {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    _id: username,
-                    password: password,
+                method: 'POST', headers: {
+                    'Accept': 'application/json', 'Content-Type': 'application/json',
+                }, body: JSON.stringify({
+                    _id: username, password: password,
                 }),
             })
 
@@ -45,8 +33,7 @@ export default class Login extends React.Component {
     };
 
     render() {
-        return (
-            <View>
+        return (<View>
                 <Image
                     source={require("./../../../assets/images/LEM_Logo.png")}
                     resizeMode="contain"
@@ -87,50 +74,38 @@ export default class Login extends React.Component {
                         <Text style={styles.BTcaption}>{"CONNEXION"}</Text>
                     </TouchableOpacity>
                 </View>
-            </View>
-        );
+            </View>);
     }
 }
 // export default Login;
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: "rgba(77,166,169,1)",
-    },
-    logo: {
-        height: 200,
-        width: 200,
-        marginTop: 150,
-        alignSelf: "center"
-    },
-    connexionButton: {
+        flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: "rgba(77,166,169,1)",
+    }, logo: {
+        height: 200, width: 200, marginTop: 150, alignSelf: "center"
+    }, connexionButton: {
         height: 46,
         width: 274,
         borderRadius: 12,
         backgroundColor: "rgba(77,166,169,1)",
         marginTop: 31,
         alignSelf: "center"
-    },
-    nomUtilisateurInput: {
+    }, nomUtilisateurInput: {
         height: 43,
         width: 300,
         borderRadius: 12,
         backgroundColor: "rgba(230, 230, 230,1)",
         marginTop: 192,
         alignSelf: "center"
-    },
-    passwordInput: {
+    }, passwordInput: {
         height: 43,
         width: 300,
         borderRadius: 12,
         backgroundColor: "rgba(230, 230, 230,1)",
         marginTop: 18,
         alignSelf: "center"
-    },
-    input: {
+    }, input: {
         width: 350,
         height: 55,
         backgroundColor: '#42A5F5',
@@ -140,16 +115,14 @@ const styles = StyleSheet.create({
         borderRadius: 14,
         fontSize: 18,
         fontWeight: '500',
-    },
-    TBcontainer: {
+    }, TBcontainer: {
         borderBottomWidth: 1,
         borderColor: "#D9D5DC",
         backgroundColor: "transparent",
         flexDirection: "row",
         alignItems: "center",
 
-    },
-    TBinputStyle: {
+    }, TBinputStyle: {
         color: "#000",
         paddingRight: 5,
         fontSize: 16,
@@ -159,25 +132,15 @@ const styles = StyleSheet.create({
         paddingTop: 15,
         paddingBottom: 8,
         marginLeft: 20
-    },
-    BTcontainer: {
-        alignItems: "center",
-        padding: 10,
-        borderRadius: 2,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 1,
-            height: 1
-        },
-        shadowOpacity: 0.35,
-        shadowRadius: 5,
+    }, BTcontainer: {
+        alignItems: "center", padding: 10, borderRadius: 2, shadowColor: "#000", shadowOffset: {
+            width: 1, height: 1
+        }, shadowOpacity: 0.35, shadowRadius: 5,
 
         minWidth: 88,
 
-    },
-    BTcaption: {
-        color: "#fff",
-        fontSize: 14,
+    }, BTcaption: {
+        color: "#fff", fontSize: 14,
 
     }
 });

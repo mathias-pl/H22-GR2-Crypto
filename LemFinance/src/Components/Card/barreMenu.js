@@ -1,27 +1,32 @@
 import React, { Component } from "react";
-import { StyleSheet, View, TouchableOpacity, Text } from "react-native";
+import { StyleSheet, View, TouchableOpacity } from "react-native";
 import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommunityIcons";
 
-function MaterialIconTextButtonsFooter(props) {
+function BarreMenu(props) {
   return (
     <View style={[styles.container, props.style]}>
       <TouchableOpacity style={styles.buttonWrapper1}>
         <MaterialCommunityIconsIcon
-          name="timer"
+          name="home"
           style={styles.icon1}
-        ></MaterialCommunityIconsIcon>
-        <Text style={styles.btn1Text}>Recent</Text>
-      </TouchableOpacity>
-      <TouchableOpacity style={styles.activeButtonWrapper}>
-        <MaterialCommunityIconsIcon
-          name="heart"
-          style={styles.activeIcon}
         ></MaterialCommunityIconsIcon>
       </TouchableOpacity>
       <TouchableOpacity style={styles.buttonWrapper2}>
         <MaterialCommunityIconsIcon
-          name="map-marker-radius"
-          style={styles.icon2}
+          name="wallet"
+          style={styles.activeIcon}
+        ></MaterialCommunityIconsIcon>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.buttonWrapper3}>
+        <MaterialCommunityIconsIcon
+          name={props.icon3 || "magnify"}
+          style={styles.icon3}
+        ></MaterialCommunityIconsIcon>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.buttonWrapper4}>
+        <MaterialCommunityIconsIcon
+          name="account-group"
+          style={styles.icon4}
         ></MaterialCommunityIconsIcon>
       </TouchableOpacity>
     </View>
@@ -30,8 +35,9 @@ function MaterialIconTextButtonsFooter(props) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#FFF",
+    backgroundColor: "#3f51b5",
     flexDirection: "row",
+    alignItems: "center",
     shadowColor: "#111",
     shadowOffset: {
       width: 0,
@@ -43,55 +49,51 @@ const styles = StyleSheet.create({
   },
   buttonWrapper1: {
     flex: 1,
-    paddingTop: 8,
-    paddingBottom: 10,
-    paddingHorizontal: 12,
     minWidth: 80,
     maxWidth: 168,
     alignItems: "center"
   },
   icon1: {
     backgroundColor: "transparent",
-    color: "#616161",
+    color: "#FFFFFF",
     fontSize: 24,
     opacity: 0.8
   },
-  btn1Text: {
-    fontSize: 12,
-    color: "#9E9E9E",
-    backgroundColor: "transparent",
-    paddingTop: 4
-  },
-  activeButtonWrapper: {
+  buttonWrapper2: {
     flex: 1,
-    paddingTop: 6,
-    paddingBottom: 10,
-    paddingHorizontal: 12,
     minWidth: 80,
     maxWidth: 168,
     alignItems: "center"
   },
   activeIcon: {
     backgroundColor: "transparent",
-    color: "#3f51b5",
-    fontSize: 24,
-    opacity: 0.8
+    color: "#FFFFFF",
+    fontSize: 24
   },
-  buttonWrapper2: {
+  buttonWrapper3: {
     flex: 1,
-    paddingTop: 8,
-    paddingBottom: 10,
-    paddingHorizontal: 12,
     minWidth: 80,
     maxWidth: 168,
     alignItems: "center"
   },
-  icon2: {
+  icon3: {
     backgroundColor: "transparent",
-    color: "#616161",
+    color: "#FFFFFF",
+    fontSize: 24,
+    opacity: 0.8
+  },
+  buttonWrapper4: {
+    flex: 1,
+    minWidth: 80,
+    maxWidth: 168,
+    alignItems: "center"
+  },
+  icon4: {
+    backgroundColor: "transparent",
+    color: "#FFFFFF",
     fontSize: 24,
     opacity: 0.8
   }
 });
 
-export default MaterialIconTextButtonsFooter;
+export default BarreMenu;
