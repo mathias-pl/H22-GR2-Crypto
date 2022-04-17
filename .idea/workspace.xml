@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/FicheCrypto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/barreMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/resumeCompteAccueil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Social.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Wallet.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/CryptoPriceCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCard122.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithoutImage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconButtonsFooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconButtonsFooter1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconTextButtonsFooter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/FicheCrypto.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/FicheCrypto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/barreMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/barreMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/resumeCompteAccueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/resumeCompteAccueil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/DefaultAppScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/DefaultAppScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -94,7 +87,8 @@
       <workItem from="1650035315751" duration="336000" />
       <workItem from="1650035751895" duration="4709000" />
       <workItem from="1650052290828" duration="1570000" />
-      <workItem from="1650120344954" duration="7548000" />
+      <workItem from="1650120344954" duration="8497000" />
+      <workItem from="1650200101381" duration="8923000" />
     </task>
     <servers />
   </component>
@@ -111,6 +105,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js</url>
+          <line>39</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

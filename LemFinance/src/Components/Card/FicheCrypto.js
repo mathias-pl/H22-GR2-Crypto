@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     groupCrypto: {
         width: 92,
         height: 92,
-        marginRight: 24,
+        marginRight: 26,
     },
 
     image: {

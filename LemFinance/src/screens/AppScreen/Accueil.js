@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import {StyleSheet, View, Text, Image, ScrollView} from "react-native";
 import ResumeCompteAccueil from "../../Components/Card/resumeCompteAccueil";
 import FicheCrypto from "../../Components/Card/FicheCrypto"
-import BarreMenu from "../../Components/Card/barreMenu";
 
 function Accueil(props) {
     return (
@@ -31,6 +30,7 @@ function Accueil(props) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        marginBottom: 50,
     },
     menuPrincipal: {
         width: 335,
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         width: 330,
         height: 92,
         flexDirection: "row",
-        marginTop: 15,
+        marginTop: 25,
         flex: 1
     },
     nomUtilisateur: {
