@@ -125,11 +125,7 @@ export default class Signup extends React.Component {
                         </View>
                     </ScrollView>
                 </KeyboardAvoidingView>
-                {/*Button*/}
-                {/*<MaterialButtonPrimary*/}
-                {/*    caption="INSCRIPTION"*/}
-                {/*    style={styles.connexionButton1}*/}
-                {/*/>*/}
+
                 <View style={styles.connexionButton1}>
                     <TouchableOpacity style={styles.BTcontainer}
                                       onPress={() =>

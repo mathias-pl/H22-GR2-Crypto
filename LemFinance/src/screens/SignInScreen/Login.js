@@ -81,13 +81,12 @@ export default class Login extends React.Component {
                     </ScrollView>
                 </KeyboardAvoidingView>
 
-                {/*<View style={styles.connexionButton}>*/}
-                    <TouchableOpacity style={[styles.BTcontainer,styles.connexionButton]}
-                                      onPress={this.props.nav.navigate("DefaultAppScreen")}>
-                        {/*onPress={this.connApiLogin}>*/}
-                        <Text style={styles.BTcaption}>{"CONNEXION"}</Text>
-                    </TouchableOpacity>
-                {/*</View>*/}
+
+                <TouchableOpacity style={[styles.BTcontainer, styles.connexionButton]}
+                                  onPress={() =>
+                                      this.props.nav.navigate("DefaultAppScreen")}>
+                    <Text style={styles.BTcaption}>CONNEXION</Text>
+                </TouchableOpacity>
             </View>
         );
     }

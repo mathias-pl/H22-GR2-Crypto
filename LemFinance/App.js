@@ -8,9 +8,7 @@ import {
 } from '@react-navigation/stack';
 import {StyleSheet, Text, View} from 'react-native';
 import Home from "./src/screens/SignInScreen/Home";
-import Login from "./src/screens/SignInScreen/Login";
-import Signup from "./src/screens/SignInScreen/Signup";
-import Accueil from "./src/screens/AppScreen/Accueil";
+
 import DefaultAppScreen from "./src/screens/AppScreen/DefaultAppScreen";
 import SignupHelper from "./src/screens/SignInScreen/signupHelper";
 import LoginHelper from "./src/screens/SignInScreen/LoginHelper";
@@ -20,7 +18,7 @@ const Stack = createStackNavigator();
 export default function App() {
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName="Home"
+            <Stack.Navigator initialRouteName="Login"
                              screenOptions={{
                                  headerShown: false
                              }}>

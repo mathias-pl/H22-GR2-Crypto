@@ -13,12 +13,6 @@ function Home({navigation}) {
                 style={styles.logo}
             />
 
-            {/*<Button title="Yoooo"*/}
-            {/*        onPress={() =>*/}
-            {/*            navigation.navigate('Signup')*/}
-            {/*        }*/}
-            {/*/>*/}
-
             <TouchableOpacity style={[styles.containerButton, styles.identificationButton]}
                               onPress={() =>
                                   navigation.navigate('Login')}
@@ -31,15 +25,6 @@ function Home({navigation}) {
                 <Text style={styles.caption}>CRÉER UN COMPTE</Text>
             </TouchableOpacity>
 
-            {/*<MaterialButtonPrimary*/}
-            {/*    caption="S'INSCRIRE"*/}
-            {/*    style={styles.identificationButton}*/}
-
-            {/*/>*/}
-            {/*<MaterialButtonPrimary1*/}
-            {/*    caption="CRÉER UN COMPTE"*/}
-            {/*    style={styles.accountCreationButton}*/}
-            {/*/>*/}
         </View>
     );
 }

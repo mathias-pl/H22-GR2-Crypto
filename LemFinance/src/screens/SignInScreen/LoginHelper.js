@@ -1,10 +1,10 @@
 import React from "react";
 import Login from "./Login";
 
-function SignupHelper({navigation}) {
+function LoginHelper({navigation}) {
     return (
         <Login nav={navigation}></Login>
     );
 }
 
-export default SignupHelper;
+export default LoginHelper;
