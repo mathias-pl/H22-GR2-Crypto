@@ -15,19 +15,18 @@ const Stack = createStackNavigator();
 function DefaultAppScreen(props) {
     return (
         <View style={styles.container}>
-
-            <NavigationContainer independent={true}>
-                <Stack.Navigator initialRouteName="Home"
-                                 screenOptions={{
-                                     headerShown: false
-                                 }}>
-                    <Stack.Screen
-                        name="Home"
-                        component={Accueil}
-                    />
-
-                </Stack.Navigator>
-            </NavigationContainer>
+        <NavigationContainer independent={true}>
+            <Stack.Navigator initialRouteName="Home"
+                             screenOptions={{
+                                 headerShown: false
+                             }}>
+                <Stack.Screen
+                    name="Home"
+                    component={Accueil}
+                />
+                
+            </Stack.Navigator>
+        </NavigationContainer>
 
             <MaterialIconButtonsFooter1
                 style={styles.materialIconButtonsFooter1}
@@ -35,7 +34,6 @@ function DefaultAppScreen(props) {
                 icon3="magnify"
             />
         </View>
-
     );
 }
 
@@ -46,9 +44,9 @@ const styles = StyleSheet.create({
     defaultView: {
         flex: 1
     },
-    styleBarreMenu: {
-        height: 50,
-        width: '100%',
+    materialIconButtonsFooter1: {
+        height: 56,
+        width: 375,
         backgroundColor: "#4da6a9",
         position: "absolute",
         bottom: 0,
