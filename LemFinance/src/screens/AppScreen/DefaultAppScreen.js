@@ -14,26 +14,26 @@ const Stack = createStackNavigator();
 
 function DefaultAppScreen(props) {
     return (
-        <View></View>
-        // <View style={styles.container}>
-        // <NavigationContainer independent={true}>
-        //     <Stack.Navigator initialRouteName="Home"
-        //                      screenOptions={{
-        //                          headerShown: false
-        //                      }}>
-        //         <Stack.Screen
-        //             name="Home"
-        //             component={Accueil}
-        //         />
-        //     </Stack.Navigator>
-        // </NavigationContainer>
+        <View style={styles.container}>
+        <NavigationContainer independent={true}>
+            <Stack.Navigator initialRouteName="Home"
+                             screenOptions={{
+                                 headerShown: false
+                             }}>
+                <Stack.Screen
+                    name="Home"
+                    component={Accueil}
+                />
+                
+            </Stack.Navigator>
+        </NavigationContainer>
 
-        // {/*    <MaterialIconButtonsFooter1*/}
-        // {/*        style={styles.materialIconButtonsFooter1}*/}
-        // {/*        icon3Name="account-group"*/}
-        // {/*        icon3="magnify"*/}
-        // {/*    />*/}
-        // {/*</View>*/}
+            <MaterialIconButtonsFooter1
+                style={styles.materialIconButtonsFooter1}
+                icon3Name="account-group"
+                icon3="magnify"
+            />
+        </View>
     );
 }
 
