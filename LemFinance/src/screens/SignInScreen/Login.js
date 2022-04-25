@@ -83,12 +83,18 @@ export default class Login extends React.Component {
 
 
                 <TouchableOpacity style={[styles.BTcontainer, styles.connexionButton]}
-                                  onPress={() =>
-                                      this.props.nav.navigate("DefaultAppScreen")}>
+                                  onPress={() => {
+                                      this.connApiLogin();
+                                      this.props.nav.navigate('DefaultAppScreen');
+                                  }}
+
+                >
+
                     <Text style={styles.BTcaption}>CONNEXION</Text>
                 </TouchableOpacity>
             </View>
-        );
+        )
+            ;
     }
 }
 // export default Login;

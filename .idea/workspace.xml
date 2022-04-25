@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="">
+    <list default="true" id="b952fbca-aa8e-4eec-b03e-1e6202150e82" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/DefaultAppScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/DefaultAppScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
