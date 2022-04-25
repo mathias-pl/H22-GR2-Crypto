@@ -11,7 +11,9 @@ import {
     TouchableOpacity
 } from "react-native";
 
-const URL = 'http://34.95.8.78/api/login';
+
+const URL = 'http://34.95.8.78/api/account/login';
+const URL2 = 'http://34.95.8.78/api/account/data'
 
 export default class Login extends React.Component {
 
@@ -36,8 +38,23 @@ export default class Login extends React.Component {
             })
 
             var data = await response.json();
+            if(data['success']){
+                var response2 = await fetch(URL2, {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'applicaton/json',
+                        'Content-Type' : 'application/json',
+                    },
+                    body: JSON.stringify({
+                        key: data['key']
+                    }),
+                })
 
-            alert(data["success"]);
+                var data2 = await response2.json();
+                global.name = data2['content']['firstName']
+                alert(name)
+            }else{                alert("ntm mauvais username/mdp")
+            }
 
         } catch (err) {
             console.log('error signing up: ', err);

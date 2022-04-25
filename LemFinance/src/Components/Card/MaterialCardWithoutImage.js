@@ -1,25 +1,26 @@
 import React, { Component } from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
-
+import '..//../screens/SignInScreen/Login'
+import Login from "..//../screens/SignInScreen/Login";
 function MaterialCardWithoutImage(props) {
   return (
-    <View style={[styles.container, props.style]}>
-      <View style={styles.bodyContent}>
-        <Text style={styles.titleStyle}>Bonjour nomUtilisateur</Text>
-        <Text style={styles.subtitleStyle}>+3.58%</Text>
+      <View style={[styles.container, props.style]}>
+        <View style={styles.bodyContent}>
+          <Text style={styles.titleStyle}> {name} </Text>
+          <Text style={styles.subtitleStyle}>+3.58%</Text>
+        </View>
+        <View style={styles.body}>
+          <Text style={styles.bodyText}>Votre portefeuille vaut</Text>
+        </View>
+        <View style={styles.actionBody}>
+          <TouchableOpacity style={styles.actionButton1}>
+            <Text style={styles.actionText1}>23&#39;592.40$</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.actionButton2}>
+            <Text style={styles.usd}>USD</Text>
+          </TouchableOpacity>
+        </View>
       </View>
-      <View style={styles.body}>
-        <Text style={styles.bodyText}>Votre portefeuille vaut</Text>
-      </View>
-      <View style={styles.actionBody}>
-        <TouchableOpacity style={styles.actionButton1}>
-          <Text style={styles.actionText1}>23&#39;592.40$</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.actionButton2}>
-          <Text style={styles.usd}>USD</Text>
-        </TouchableOpacity>
-      </View>
-    </View>
   );
 }
 
