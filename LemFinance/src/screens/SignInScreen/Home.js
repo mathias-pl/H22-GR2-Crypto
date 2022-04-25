@@ -12,23 +12,34 @@ function Home({navigation}) {
                 resizeMode="contain"
                 style={styles.logo}
             />
-            {/*<TouchableOpacity style={[styles.container, props.style]}>*/}
-            {/*    <Text style={styles.caption}>{props.caption}</Text>*/}
-            {/*</TouchableOpacity>*/}
-            <Button title="Yoooo"
-                    onPress={() =>
-                        navigation.navigate('Signup')
-                    }
-            />
-            <MaterialButtonPrimary
-                caption="S'INSCRIRE"
-                style={styles.identificationButton}
 
-            />
-            <MaterialButtonPrimary1
-                caption="CRÉER UN COMPTE"
-                style={styles.accountCreationButton}
-            />
+            {/*<Button title="Yoooo"*/}
+            {/*        onPress={() =>*/}
+            {/*            navigation.navigate('Signup')*/}
+            {/*        }*/}
+            {/*/>*/}
+
+            <TouchableOpacity style={[styles.containerButton, styles.identificationButton]}
+                              onPress={() =>
+                                  navigation.navigate('Login')}
+            >
+                <Text style={styles.caption}>SE CONNECTER</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={[styles.containerButton, styles.accountCreationButton]}
+                              onPress={() =>
+                                  navigation.navigate('Signup')}>
+                <Text style={styles.caption}>CRÉER UN COMPTE</Text>
+            </TouchableOpacity>
+
+            {/*<MaterialButtonPrimary*/}
+            {/*    caption="S'INSCRIRE"*/}
+            {/*    style={styles.identificationButton}*/}
+
+            {/*/>*/}
+            {/*<MaterialButtonPrimary1*/}
+            {/*    caption="CRÉER UN COMPTE"*/}
+            {/*    style={styles.accountCreationButton}*/}
+            {/*/>*/}
         </View>
     );
 }
@@ -58,6 +69,7 @@ const styles = StyleSheet.create({
         borderRadius: 12,
         marginTop: 22,
         marginLeft: 51
+
     },
     containerButton: {
         backgroundColor: "#2196F3",

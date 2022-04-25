@@ -132,13 +132,13 @@ export default class Signup extends React.Component {
                 {/*/>*/}
                 <View style={styles.connexionButton1}>
                     <TouchableOpacity style={styles.BTcontainer}
-                                      onPress={this.connApiSignup}>
+                                      onPress={() =>
+                                          this.props.nav.navigate('DefaultAppScreen')}>
                         <Text style={styles.BTcaption}>{"INSCRIPTION"}</Text>
                     </TouchableOpacity>
                 </View>
             </View>
-
-        );
+        )
     }
 }
 

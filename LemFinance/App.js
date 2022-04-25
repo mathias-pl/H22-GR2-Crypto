@@ -12,6 +12,8 @@ import Login from "./src/screens/SignInScreen/Login";
 import Signup from "./src/screens/SignInScreen/Signup";
 import Accueil from "./src/screens/AppScreen/Accueil";
 import DefaultAppScreen from "./src/screens/AppScreen/DefaultAppScreen";
+import SignupHelper from "./src/screens/SignInScreen/signupHelper";
+import LoginHelper from "./src/screens/SignInScreen/LoginHelper";
 
 const Stack = createStackNavigator();
 
@@ -28,11 +30,11 @@ export default function App() {
                 />
                 <Stack.Screen
                     name="Login"
-                    component={Login}
+                    component={LoginHelper}
                 />
                 <Stack.Screen
                     name="Signup"
-                    component={Signup}
+                    component={SignupHelper}
                 />
                 <Stack.Screen
                     name="DefaultAppScreen"
