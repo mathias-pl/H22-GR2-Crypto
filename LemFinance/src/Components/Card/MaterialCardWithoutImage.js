@@ -6,7 +6,8 @@ function MaterialCardWithoutImage(props) {
   return (
       <View style={[styles.container, props.style]}>
         <View style={styles.bodyContent}>
-          <Text style={styles.titleStyle}> {name} </Text>
+          {/*<Text style={styles.titleStyle}> {name} </Text>*/}
+          <Text style={styles.titleStyle}> ADONISS </Text>
           <Text style={styles.subtitleStyle}>+3.58%</Text>
         </View>
         <View style={styles.body}>

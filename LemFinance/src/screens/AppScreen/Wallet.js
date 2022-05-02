@@ -1,71 +1,19 @@
 import React, {Component} from "react";
 import {StyleSheet, View, Text, Image, ScrollView, TouchableOpacity} from "react-native";
-import MaterialCardWithoutImage from "../../Components/Card/MaterialCardWithoutImage";
-import MaterialIconButtonsFooter1 from "../../Components/Card/MaterialIconButtonsFooter1";
+
 import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommunityIcons";
 
-function Accueil(props) {
+function Wallet(props) {
+
     const pressHome = () => props.nav.navigate('Accueil')
     const pressWallet = () => props.nav.navigate('Wallet')
     const pressSearch = () => props.nav.navigate('Search')
     const pressSocial = () => props.nav.navigate('Social')
+
     return (
         <View style={styles.container}>
             <ScrollView style={styles.container}>
-                <View style={styles.materialCardWithoutImageColumn}>
-                    {/*<View style={styles.group}>*/}
-                    {/*    <Text style={styles.nomUtilisateur}>nomUtilisateur</Text>*/}
-                    {/*    <Text style={styles.montantArgent}>montantArgent</Text>*/}
-                    {/*</View>*/}
 
-                    <MaterialCardWithoutImage
-                        style={styles.materialCardWithoutImage}
-                    ></MaterialCardWithoutImage>
-
-                    <View style={styles.group5}>
-                        <View style={styles.group2Row}>
-                            <View style={styles.group2}>
-                                <View style={styles.rect}>
-                                    <View style={styles.imageRow}>
-                                        <Image
-                                            source={require("../../../assets/images/BtcIcon.png")}
-                                            resizeMode="contain"
-                                            style={styles.image}
-                                        ></Image>
-                                        <Text style={styles.btc}>BTC</Text>
-                                    </View>
-                                    <Text style={styles.price}>PRICE</Text>
-                                </View>
-                            </View>
-                            <View style={styles.group4}>
-                                <View style={styles.rect2}>
-                                    <View style={styles.image2Row}>
-                                        <Image
-                                            source={require("../../../assets/images/BtcIcon.png")}
-                                            resizeMode="contain"
-                                            style={styles.image2}
-                                        ></Image>
-                                        <Text style={styles.btc2}>BTC</Text>
-                                    </View>
-                                    <Text style={styles.price2}>PRICE</Text>
-                                </View>
-                            </View>
-                            <View style={styles.group3}>
-                                <View style={styles.rect1}>
-                                    <View style={styles.image1Row}>
-                                        <Image
-                                            source={require("../../../assets/images/BtcIcon.png")}
-                                            resizeMode="contain"
-                                            style={styles.image1}
-                                        ></Image>
-                                        <Text style={styles.btc1}>BTC</Text>
-                                    </View>
-                                    <Text style={styles.price1}>PRICE</Text>
-                                </View>
-                            </View>
-                        </View>
-                    </View>
-                </View>
 
             </ScrollView>
 
@@ -315,4 +263,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default Accueil;
+export default Wallet;

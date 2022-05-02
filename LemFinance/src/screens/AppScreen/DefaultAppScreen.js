@@ -9,30 +9,36 @@ import Home from "../SignInScreen/Home";
 import LoginHelper from "../SignInScreen/LoginHelper";
 import SignupHelper from "../SignInScreen/signupHelper";
 import {createStackNavigator} from "@react-navigation/stack";
+import Wallet from "./Wallet";
+import AccueilHelper from "./AccueilHelper";
+import WalletHelper from "./WalletHelper";
 
 const Stack = createStackNavigator();
 
 function DefaultAppScreen(props) {
     return (
         <View style={styles.container}>
-        <NavigationContainer independent={true}>
-            <Stack.Navigator initialRouteName="Home"
-                             screenOptions={{
-                                 headerShown: false
-                             }}>
-                <Stack.Screen
-                    name="Home"
-                    component={Accueil}
-                />
-                
-            </Stack.Navigator>
-        </NavigationContainer>
+            <NavigationContainer independent={true}>
+                <Stack.Navigator initialRouteName="Accueil"
+                                 screenOptions={{
+                                     headerShown: false,
+                                     animationEnabled: false
+                                 }}
 
-            <MaterialIconButtonsFooter1
-                style={styles.materialIconButtonsFooter1}
-                icon3Name="account-group"
-                icon3="magnify"
-            />
+                >
+                    <Stack.Screen
+                        name="Accueil"
+                        component={AccueilHelper}
+                    />
+                    <Stack.Screen
+                        name="Wallet"
+                        component={WalletHelper}
+                    />
+
+                </Stack.Navigator>
+            </NavigationContainer>
+
+
         </View>
     );
 }

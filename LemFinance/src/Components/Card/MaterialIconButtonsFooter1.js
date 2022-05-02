@@ -11,25 +11,26 @@ function MaterialIconButtonsFooter1(props) {
     return (
         <View style={[styles.container, props.style]}>
             <TouchableOpacity style={styles.buttonWrapper1}
-                              onPress={() => pressHome()}>
+                              onPress={() => pressHome()}
+            >
                 <MaterialCommunityIconsIcon
                     name="home"
                     style={styles.icon1}
                 ></MaterialCommunityIconsIcon>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.buttonWrapper2}>
+            <TouchableOpacity style={styles.buttonWrapper2} onPress={() => pressWallet()}>
                 <MaterialCommunityIconsIcon
                     name="wallet"
                     style={styles.activeIcon}
                 ></MaterialCommunityIconsIcon>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.buttonWrapper3}>
+            <TouchableOpacity style={styles.buttonWrapper3} onPress={() => pressSearch()}>
                 <MaterialCommunityIconsIcon
                     name={props.icon3 || "magnify"}
                     style={styles.icon3}
                 ></MaterialCommunityIconsIcon>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.buttonWrapper4}>
+            <TouchableOpacity style={styles.buttonWrapper4 } onPress={() => pressSocial()}>
                 <MaterialCommunityIconsIcon
                     name="account-group"
                     style={styles.icon4}
