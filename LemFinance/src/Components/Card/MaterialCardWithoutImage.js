@@ -14,10 +14,10 @@ function MaterialCardWithoutImage(props) {
           <Text style={styles.bodyText}>Votre portefeuille vaut</Text>
         </View>
         <View style={styles.actionBody}>
-          <TouchableOpacity style={styles.actionButton1}>
-            <Text style={styles.actionText1}>23&#39;592.40$</Text>
+          <TouchableOpacity style={styles.actionButton}>
+            <Text style={styles.actionText}>23&#39;592.40$</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.actionButton2}>
+          <TouchableOpacity style={styles.actionButton}>
             <Text style={styles.usd}>USD</Text>
           </TouchableOpacity>
         </View>
@@ -50,7 +50,8 @@ const styles = StyleSheet.create({
   titleStyle: {
     fontSize: 28,
     color: "#000",
-    paddingBottom: 12
+    paddingBottom: 12,
+    lineHeight: 25
   },
   subtitleStyle: {
     fontSize: 22,
@@ -74,18 +75,14 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignSelf: "center"
   },
-  actionButton1: {
+  actionButton: {
     padding: 8,
     height: 36
   },
-  actionText1: {
+  actionText: {
     fontSize: 24,
     color: "#000",
     opacity: 0.9
-  },
-  actionButton2: {
-    padding: 8,
-    height: 36
   },
   usd: {
     fontSize: 24,

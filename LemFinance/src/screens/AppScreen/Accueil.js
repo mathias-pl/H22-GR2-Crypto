@@ -13,17 +13,20 @@ function Accueil(props) {
         <View style={styles.container}>
             <ScrollView style={styles.container}>
                 <View style={styles.materialCardWithoutImageColumn}>
-                    {/*<View style={styles.group}>*/}
-                    {/*    <Text style={styles.nomUtilisateur}>nomUtilisateur</Text>*/}
-                    {/*    <Text style={styles.montantArgent}>montantArgent</Text>*/}
-                    {/*</View>*/}
+                    <View style={styles.group}>
+                        <Text style={styles.nomUtilisateur}>nomUtilisateur</Text>
+                        <Text style={styles.montantArgent}>montantArgent</Text>
+                    </View>
 
                     <MaterialCardWithoutImage
                         style={styles.materialCardWithoutImage}
                     ></MaterialCardWithoutImage>
 
                     <View style={styles.group5}>
-                        <View style={styles.group2Row}>
+
+                        <ScrollView style={styles.group2Row} horizontal={true}>
+
+
                             <View style={styles.group2}>
                                 <View style={styles.rect}>
                                     <View style={styles.imageRow}>
@@ -37,6 +40,22 @@ function Accueil(props) {
                                     <Text style={styles.price}>PRICE</Text>
                                 </View>
                             </View>
+
+                            <View style={styles.group2}>
+                                <View style={styles.rect}>
+                                    <View style={styles.imageRow}>
+                                        <Image
+                                            source={require("../../../assets/images/BtcIcon.png")}
+                                            resizeMode="contain"
+                                            style={styles.image}
+                                        ></Image>
+                                        <Text style={styles.btc}>BTC</Text>
+                                    </View>
+                                    <Text style={styles.price}>PRICE</Text>
+                                </View>
+                            </View>
+
+
                             <View style={styles.group4}>
                                 <View style={styles.rect2}>
                                     <View style={styles.image2Row}>
@@ -50,6 +69,8 @@ function Accueil(props) {
                                     <Text style={styles.price2}>PRICE</Text>
                                 </View>
                             </View>
+
+
                             <View style={styles.group3}>
                                 <View style={styles.rect1}>
                                     <View style={styles.image1Row}>
@@ -63,7 +84,9 @@ function Accueil(props) {
                                     <Text style={styles.price1}>PRICE</Text>
                                 </View>
                             </View>
-                        </View>
+
+
+                        </ScrollView>
                     </View>
                 </View>
 
@@ -71,28 +94,28 @@ function Accueil(props) {
 
 
             <View style={[styles.containerFooter, styles.materialIconButtonsFooter1]}>
-                <TouchableOpacity style={styles.buttonWrapper1} onPress={() => pressHome()}>
+                <TouchableOpacity style={styles.buttonWrapper} onPress={() => pressHome()}>
                     <MaterialCommunityIconsIcon
                         name="home"
-                        style={styles.icon1}
+                        style={styles.icon}
                     ></MaterialCommunityIconsIcon>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.buttonWrapper2} onPress={() => pressWallet()}>
+                <TouchableOpacity style={styles.buttonWrapper} onPress={() => pressWallet()}>
                     <MaterialCommunityIconsIcon
                         name="wallet"
                         style={styles.activeIcon}
                     ></MaterialCommunityIconsIcon>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.buttonWrapper3} onPress={() => pressSearch()}>
+                <TouchableOpacity style={styles.buttonWrapper} onPress={() => pressSearch()}>
                     <MaterialCommunityIconsIcon
                         name={props.icon3 || "magnify"}
-                        style={styles.icon3}
+                        style={styles.icon}
                     ></MaterialCommunityIconsIcon>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.buttonWrapper4} onPress={() => pressSocial()}>
+                <TouchableOpacity style={styles.buttonWrapper} onPress={() => pressSocial()}>
                     <MaterialCommunityIconsIcon
                         name="account-group"
-                        style={styles.icon4}
+                        style={styles.icon}
                     ></MaterialCommunityIconsIcon>
                 </TouchableOpacity>
             </View>
@@ -266,53 +289,23 @@ const styles = StyleSheet.create({
         shadowRadius: 1.2,
         elevation: 3
     },
-    buttonWrapper1: {
+    buttonWrapper: {
         flex: 1,
         minWidth: 80,
         maxWidth: 168,
         alignItems: "center"
     },
-    icon1: {
+    icon: {
         backgroundColor: "transparent",
         color: "#FFFFFF",
         fontSize: 24,
         opacity: 0.8
-    },
-    buttonWrapper2: {
-        flex: 1,
-        minWidth: 80,
-        maxWidth: 168,
-        alignItems: "center"
     },
     activeIcon: {
         backgroundColor: "transparent",
         color: "#FFFFFF",
         fontSize: 24
     },
-    buttonWrapper3: {
-        flex: 1,
-        minWidth: 80,
-        maxWidth: 168,
-        alignItems: "center"
-    },
-    icon3: {
-        backgroundColor: "transparent",
-        color: "#FFFFFF",
-        fontSize: 24,
-        opacity: 0.8
-    },
-    buttonWrapper4: {
-        flex: 1,
-        minWidth: 80,
-        maxWidth: 168,
-        alignItems: "center"
-    },
-    icon4: {
-        backgroundColor: "transparent",
-        color: "#FFFFFF",
-        fontSize: 24,
-        opacity: 0.8
-    }
 });
 
 export default Accueil;
