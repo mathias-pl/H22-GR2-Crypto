@@ -12,6 +12,8 @@ import {createStackNavigator} from "@react-navigation/stack";
 import Wallet from "./Wallet";
 import AccueilHelper from "./AccueilHelper";
 import WalletHelper from "./WalletHelper";
+import SocialHelper from "./SocialHelper";
+import SearchHelper from "./SearchHelper";
 
 const Stack = createStackNavigator();
 
@@ -33,6 +35,14 @@ function DefaultAppScreen(props) {
                     <Stack.Screen
                         name="Wallet"
                         component={WalletHelper}
+                    />
+                    <Stack.Screen
+                        name="Search"
+                        component={SearchHelper}
+                    />
+                    <Stack.Screen
+                        name="Social"
+                        component={SocialHelper}
                     />
 
                 </Stack.Navigator>
