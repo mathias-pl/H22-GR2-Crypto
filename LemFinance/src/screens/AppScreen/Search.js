@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import {StyleSheet, View, Text, Image, ScrollView, TouchableOpacity} from "react-native";
-
+import MaterialCardWithImageAndTitle5 from "../../Components/SearchBars/MaterialCardWithImageAndTitle5";
+import MaterialCardWithImageAndTitle6 from "../../Components/SearchBars/MaterialCardWithImageAndTitle6";
+import MaterialSearchBarWithBackground from "../../Components/SearchBars/MaterialSearchBarWithBackground";
 import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommunityIcons";
 
 function Search(props) {
@@ -13,8 +15,19 @@ function Search(props) {
     return (
         <View style={styles.container}>
             <ScrollView style={styles.container}>
-
-
+                <View style={styles.materialSearchBarWithBackgroundColumn}>
+                    <MaterialSearchBarWithBackground
+                        style={styles.materialSearchBarWithBackground}
+                    />
+                    <Text style={styles.loremIpsum}>2 cryptocurrencies found!</Text>
+                    <MaterialCardWithImageAndTitle5
+                        style={styles.materialCardWithImageAndTitle5}
+                    />
+                    <MaterialCardWithImageAndTitle6
+                        style={styles.materialCardWithImageAndTitle6}
+                    />
+                </View>
+                <View style={styles.materialSearchBarWithBackgroundColumnFiller}/>
             </ScrollView>
 
 
@@ -260,7 +273,50 @@ const styles = StyleSheet.create({
         color: "#FFFFFF",
         fontSize: 24,
         opacity: 0.8
-    }
+    },
+    materialSearchBarWithBackground: {
+        height: 56,
+        width: 357,
+        borderRadius: 29,
+        backgroundColor: "#c8e3e3",
+        shadowColor: "rgba(0,0,0,1)",
+        shadowOffset: {
+            width: 3,
+            height: 3
+        },
+        elevation: 12,
+        shadowOpacity: 0.4,
+        shadowRadius: 4,
+        overflow: "visible",
+        marginLeft: 1
+    },
+    loremIpsum: {
+        fontFamily: "roboto-700",
+        color: "#121212",
+        fontSize: 22,
+        textAlign: "left",
+        marginTop: 11,
+        marginLeft: 45
+    },
+    materialCardWithImageAndTitle5: {
+        height: 166,
+        width: 359,
+        backgroundColor: "#ffffff",
+        marginTop: 14
+    },
+    materialCardWithImageAndTitle6: {
+        height: 166,
+        width: 357,
+        marginTop: 5
+    },
+    materialSearchBarWithBackgroundColumn: {
+        width: 359,
+        marginTop: 44,
+        marginLeft: 8
+    },
+    materialSearchBarWithBackgroundColumnFiller: {
+        flex: 1
+    },
 });
 
 export default Search;
