@@ -28,13 +28,13 @@ function Search(props) {
                 <TouchableOpacity style={styles.buttonWrapper2} onPress={() => pressWallet()}>
                     <MaterialCommunityIconsIcon
                         name="wallet"
-                        style={styles.activeIcon}
+                        style={styles.icon1}
                     ></MaterialCommunityIconsIcon>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonWrapper3} onPress={() => pressSearch()}>
                     <MaterialCommunityIconsIcon
                         name={props.icon3 || "magnify"}
-                        style={styles.icon3}
+                        style={styles.activeIcon}
                     ></MaterialCommunityIconsIcon>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonWrapper4} onPress={() => pressSocial()}>

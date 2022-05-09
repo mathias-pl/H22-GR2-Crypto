@@ -97,13 +97,13 @@ function Accueil(props) {
                 <TouchableOpacity style={styles.buttonWrapper} onPress={() => pressHome()}>
                     <MaterialCommunityIconsIcon
                         name="home"
-                        style={styles.icon}
+                        style={styles.activeIcon}
                     ></MaterialCommunityIconsIcon>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonWrapper} onPress={() => pressWallet()}>
                     <MaterialCommunityIconsIcon
                         name="wallet"
-                        style={styles.activeIcon}
+                        style={styles.icon}
                     ></MaterialCommunityIconsIcon>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonWrapper} onPress={() => pressSearch()}>
