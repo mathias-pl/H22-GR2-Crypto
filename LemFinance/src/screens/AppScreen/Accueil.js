@@ -4,11 +4,15 @@ import MaterialCardWithoutImage from "../../Components/Card/MaterialCardWithoutI
 import MaterialIconButtonsFooter1 from "../../Components/Card/MaterialIconButtonsFooter1";
 import MaterialCommunityIconsIcon from "react-native-vector-icons/MaterialCommunityIcons";
 
+// import '../../global'
+
 function Accueil(props) {
     const pressHome = () => props.nav.navigate('Accueil')
     const pressWallet = () => props.nav.navigate('Wallet')
     const pressSearch = () => props.nav.navigate('Search')
     const pressSocial = () => props.nav.navigate('Social')
+
+    global.foo = "default";
 
     return (
         <View style={styles.container}>
@@ -38,7 +42,7 @@ function Accueil(props) {
                                         ></Image>
                                         <Text style={styles.btc}>BTC</Text>
                                     </View>
-                                    <Text style={styles.price}>btcPrice</Text>
+                                    <Text style={styles.price}>{foo}</Text>
                                 </View>
                             </View>
 
