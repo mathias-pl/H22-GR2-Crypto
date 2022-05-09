@@ -66,146 +66,7 @@ const styles = StyleSheet.create({
         flex: 1,
 
     },
-    materialCardWithoutImage: {
-        height: 221,
-        width: 335,
-        borderRadius: 12,
-        backgroundColor: "rgba(77,166, 166,0.31)",
-        marginTop: 59
-    },
-    group: {
-        width: 82,
-        height: 44,
-        marginTop: -280,
-        marginLeft: 10
-    },
-    nomUtilisateur: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        fontSize: 18
-    },
-    montantArgent: {
-        fontFamily: "roboto-regular",
-        color: "#121212"
-    },
-    group5: {
-        width: 330,
-        height: 92,
-        flexDirection: "row",
-        marginTop: 292,
-        marginLeft: 5
-    },
-    group2: {
-        width: 92,
-        height: 92
-    },
-    rect: {
-        width: 92,
-        height: 92,
-        backgroundColor: "#E6E6E6",
-        borderRadius: 8
-    },
-    image: {
-        width: 30,
-        height: 30
-    },
-    btc: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginLeft: 9,
-        marginTop: 9
-    },
-    imageRow: {
-        height: 30,
-        flexDirection: "row",
-        marginTop: 8,
-        marginLeft: 10,
-        marginRight: 17
-    },
-    price: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginTop: 18,
-        marginLeft: 30
-    },
-    group4: {
-        width: 92,
-        height: 92,
-        marginLeft: 25
-    },
-    rect2: {
-        width: 92,
-        height: 92,
-        backgroundColor: "#E6E6E6",
-        borderRadius: 8
-    },
-    image2: {
-        width: 30,
-        height: 30
-    },
-    btc2: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginLeft: 9,
-        marginTop: 9
-    },
-    image2Row: {
-        height: 30,
-        flexDirection: "row",
-        marginTop: 8,
-        marginLeft: 10,
-        marginRight: 17
-    },
-    price2: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginTop: 18,
-        marginLeft: 30
-    },
-    group3: {
-        width: 92,
-        height: 92,
-        marginLeft: 29
-    },
-    rect1: {
-        width: 92,
-        height: 92,
-        backgroundColor: "#E6E6E6",
-        borderRadius: 8
-    },
-    image1: {
-        width: 30,
-        height: 30
-    },
-    btc1: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginLeft: 9,
-        marginTop: 9
-    },
-    image1Row: {
-        height: 30,
-        flexDirection: "row",
-        marginTop: 8,
-        marginLeft: 10,
-        marginRight: 17
-    },
-    price1: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginTop: 18,
-        marginLeft: 30
-    },
-    group2Row: {
-        height: 92,
-        flexDirection: "row",
-        flex: 1
-    },
-    materialCardWithoutImageColumn: {
-        width: 335,
-        marginTop: 47,
-        marginLeft: 20
-    },
+
     materialCardWithoutImageColumnFiller: {
         flex: 1
     },
@@ -274,6 +135,7 @@ const styles = StyleSheet.create({
         fontSize: 24,
         opacity: 0.8
     },
+    ///
     materialSearchBarWithBackground: {
         height: 56,
         width: 357,

@@ -2,67 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b952fbca-aa8e-4eec-b03e-1e6202150e82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/Ethereum-Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/assets/images/cardImage9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonGrey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonPrimary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonPrimary1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonShare.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonShare1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonWithShadow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonWithShadow1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonWithShadow2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonWithVioletText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonWithVioletText1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonWithVioletText2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonWithVioletText3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialButtonWithVioletText4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCard12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithButtons1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithImageAndTitle9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithVerticalButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialIconButtonsFooter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialRightIconTextbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialSearchBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialSearchBarWithBackground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialUnderlineTextbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialUnderlineTextbox1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/SearchBars/MaterialCardWithImageAndTitle5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/SearchBars/MaterialCardWithImageAndTitle6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/Components/SearchBars/MaterialSearchBarWithBackground.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Social.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Social.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Wallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Wallet.js" afterDir="false" />
@@ -91,8 +32,8 @@
     <setting file="file://$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Wallet.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_LemFinanceLogin finale.zip/src/screens/Friendlist.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_LemFinanceLogin finale.zip/src/screens/Wallet.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_LemFinanceLogin finale.zip/src/screens/Search.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_LemFinanceLogin finale.zip/src/screens/Wallet.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_LemFinanceLogin finale.zip/src/screens/Search.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

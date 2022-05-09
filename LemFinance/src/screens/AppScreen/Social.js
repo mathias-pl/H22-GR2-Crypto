@@ -8,7 +8,6 @@ import MaterialButtonShare from "../../Components/Card/MaterialButtonShare";
 import MaterialButtonShare1 from "../../Components/Card/MaterialButtonShare1";
 
 
-
 function Social(props) {
 
     const pressHome = () => props.nav.navigate('Accueil')
@@ -19,56 +18,92 @@ function Social(props) {
     return (
         <View style={styles.container}>
             <ScrollView style={styles.container}>
-                <View style={styles.group2Column}>
-                    <View style={styles.group2}>
-                        <View style={styles.groupStackStack}>
-                            <View style={styles.groupStack}>
-                                <View style={styles.group}>
-                                    <MaterialButtonWithVioletText
-                                        style={styles.materialButtonWithVioletText}
-                                    ></MaterialButtonWithVioletText>
+
+
+                <View style={styles.container}>
+                    <View style={styles.group2Column}>
+                        <View style={styles.group2}>
+                            <View style={styles.groupStackStack}>
+                                <View style={styles.groupStack}>
+                                    <View style={styles.group}>
+                                        <MaterialButtonWithVioletText
+                                            style={styles.materialButtonWithVioletText}
+                                        ></MaterialButtonWithVioletText>
+                                    </View>
+                                    <View style={styles.rect}></View>
                                 </View>
-                                <View style={styles.rect}></View>
+                                <MaterialButtonWithVioletText1
+                                    style={styles.materialButtonWithVioletText1}
+                                ></MaterialButtonWithVioletText1>
+                                <MaterialButtonWithVioletText2
+                                    style={styles.materialButtonWithVioletText2}
+                                ></MaterialButtonWithVioletText2>
                             </View>
-                            <MaterialButtonWithVioletText1
-                                style={styles.materialButtonWithVioletText1}
-                            ></MaterialButtonWithVioletText1>
-                            <MaterialButtonWithVioletText2
-                                style={styles.materialButtonWithVioletText2}
-                            ></MaterialButtonWithVioletText2>
                         </View>
-                    </View>
-                    <View style={styles.group5}>
-                        <View style={styles.group4}>
-                            <View style={styles.rect2}>
-                                <View style={styles.group3}>
-                                    <View style={styles.nameRow}>
-                                        <Text style={styles.name}>NAME</Text>
-                                        <Text style={styles.portfolioValue}>PORTFOLIO_VALUE</Text>
-                                        <Text style={styles.add}>DELETE</Text>
-                                        <Image
-                                            source={require("../../../assets/images/avatar2.jpg")}
-                                            resizeMode="contain"
-                                            style={styles.image}
-                                        ></Image>
+                        <View style={styles.group5}>
+                            <View style={styles.group4}>
+                                <View style={styles.rect2}>
+                                    <View style={styles.group3}>
+                                        <View style={styles.nameRow}>
+                                            <Text style={styles.name}>NAME</Text>
+                                            <Text style={styles.portfolioValue}>PORTFOLIO_VALUE</Text>
+                                            <Text style={styles.add}>DELETE</Text>
+                                            <Image
+                                                source={require("../../../assets/images/avatar.jpg")}
+                                                resizeMode="contain"
+                                                style={styles.image}
+                                            ></Image>
+                                        </View>
                                     </View>
                                 </View>
                             </View>
                         </View>
-                    </View>
-                    <View style={styles.group15}>
-                        <View style={styles.group6}>
-                            <View style={styles.group7}>
-                                <View style={styles.rect3}>
-                                    <View style={styles.group8}>
-                                        <View style={styles.name1Row}>
-                                            <Text style={styles.name1}>NAME</Text>
-                                            <Text style={styles.portfolioValue1}>PORTFOLIO_VALUE</Text>
-                                            <Text style={styles.add4}>ADD</Text>
+                        <View style={styles.group15}>
+                            <View style={styles.group6}>
+                                <View style={styles.group7}>
+                                    <View style={styles.rect3}>
+                                        <View style={styles.group8}>
+                                            <View style={styles.name1Row}>
+                                                <Text style={styles.name1}>NAME</Text>
+                                                <Text style={styles.portfolioValue1}>PORTFOLIO_VALUE</Text>
+                                                <Text style={styles.add4}>ADD</Text>
+                                                <Image
+                                                    source={require("../../../assets/images/avatar.jpg")}
+                                                    resizeMode="contain"
+                                                    style={styles.image1}
+                                                ></Image>
+                                            </View>
+                                        </View>
+                                    </View>
+                                </View>
+                            </View>
+                        </View>
+                        <View style={styles.group14}>
+                            <View style={styles.group10}>
+                                <View style={styles.rect4}>
+                                    <View style={styles.group13}>
+                                        <View style={styles.name2Row}>
+                                            <Text style={styles.name2}>NAME</Text>
+                                            <Text style={styles.portfolioValue3}>PORTFOLIO_VALUE</Text>
+                                            <View style={styles.group12}>
+                                                <View style={styles.group11Row}>
+                                                    <View style={styles.group11}>
+                                                        <View style={styles.add3Stack}>
+                                                            <Text style={styles.add3}></Text>
+                                                            <MaterialButtonShare
+                                                                style={styles.materialButtonShare}
+                                                            ></MaterialButtonShare>
+                                                        </View>
+                                                    </View>
+                                                    <MaterialButtonShare1
+                                                        style={styles.materialButtonShare1}
+                                                    ></MaterialButtonShare1>
+                                                </View>
+                                            </View>
                                             <Image
-                                                source={require("../../../assets/images/avatar2.jpg")}
+                                                source={require("../../../assets/images/avatar.jpg")}
                                                 resizeMode="contain"
-                                                style={styles.image1}
+                                                style={styles.image2}
                                             ></Image>
                                         </View>
                                     </View>
@@ -76,67 +111,34 @@ function Social(props) {
                             </View>
                         </View>
                     </View>
-                    <View style={styles.group14}>
-                        <View style={styles.group10}>
-                            <View style={styles.rect4}>
-                                <View style={styles.group13}>
-                                    <View style={styles.name2Row}>
-                                        <Text style={styles.name2}>NAME</Text>
-                                        <Text style={styles.portfolioValue3}>PORTFOLIO_VALUE</Text>
-                                        <View style={styles.group12}>
-                                            <View style={styles.group11Row}>
-                                                <View style={styles.group11}>
-                                                    <View style={styles.add3Stack}>
-                                                        <Text style={styles.add3}></Text>
-                                                        <MaterialButtonShare
-                                                            style={styles.materialButtonShare}
-                                                        ></MaterialButtonShare>
-                                                    </View>
-                                                </View>
-                                                <MaterialButtonShare1
-                                                    style={styles.materialButtonShare1}
-                                                ></MaterialButtonShare1>
-                                            </View>
-                                        </View>
-                                        <Image
-                                            source={require("../../../assets/images/avatar2.jpg")}
-                                            resizeMode="contain"
-                                            style={styles.image2}
-                                        ></Image>
-                                    </View>
-                                </View>
-                            </View>
-                        </View>
-                    </View>
                 </View>
 
+
             </ScrollView>
-
-
             <View style={[styles.containerFooter, styles.materialIconButtonsFooter1]}>
                 <TouchableOpacity style={styles.buttonWrapper1} onPress={() => pressHome()}>
                     <MaterialCommunityIconsIcon
                         name="home"
                         style={styles.icon1}
-                    ></MaterialCommunityIconsIcon>
+                    />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonWrapper2} onPress={() => pressWallet()}>
                     <MaterialCommunityIconsIcon
                         name="wallet"
                         style={styles.icon1}
-                    ></MaterialCommunityIconsIcon>
+                    />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonWrapper3} onPress={() => pressSearch()}>
                     <MaterialCommunityIconsIcon
                         name={props.icon3 || "magnify"}
                         style={styles.icon3}
-                    ></MaterialCommunityIconsIcon>
+                    />
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonWrapper4} onPress={() => pressSocial()}>
                     <MaterialCommunityIconsIcon
                         name="account-group"
                         style={styles.activeIcon}
-                    ></MaterialCommunityIconsIcon>
+                    />
                 </TouchableOpacity>
             </View>
         </View>
@@ -147,149 +149,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
 
-    },
-    materialCardWithoutImage: {
-        height: 221,
-        width: 335,
-        borderRadius: 12,
-        backgroundColor: "rgba(77,166, 166,0.31)",
-        marginTop: 59
-    },
-    group: {
-        width: 82,
-        height: 44,
-        marginTop: -280,
-        marginLeft: 10
-    },
-    nomUtilisateur: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        fontSize: 18
-    },
-    montantArgent: {
-        fontFamily: "roboto-regular",
-        color: "#121212"
-    },
-    group5: {
-        width: 330,
-        height: 92,
-        flexDirection: "row",
-        marginTop: 292,
-        marginLeft: 5
-    },
-    group2: {
-        width: 92,
-        height: 92
-    },
-    rect: {
-        width: 92,
-        height: 92,
-        backgroundColor: "#E6E6E6",
-        borderRadius: 8
-    },
-    image: {
-        width: 30,
-        height: 30
-    },
-    btc: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginLeft: 9,
-        marginTop: 9
-    },
-    imageRow: {
-        height: 30,
-        flexDirection: "row",
-        marginTop: 8,
-        marginLeft: 10,
-        marginRight: 17
-    },
-    price: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginTop: 18,
-        marginLeft: 30
-    },
-    group4: {
-        width: 92,
-        height: 92,
-        marginLeft: 25
-    },
-    rect2: {
-        width: 92,
-        height: 92,
-        backgroundColor: "#E6E6E6",
-        borderRadius: 8
-    },
-    image2: {
-        width: 30,
-        height: 30
-    },
-    btc2: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginLeft: 9,
-        marginTop: 9
-    },
-    image2Row: {
-        height: 30,
-        flexDirection: "row",
-        marginTop: 8,
-        marginLeft: 10,
-        marginRight: 17
-    },
-    price2: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginTop: 18,
-        marginLeft: 30
-    },
-    group3: {
-        width: 92,
-        height: 92,
-        marginLeft: 29
-    },
-    rect1: {
-        width: 92,
-        height: 92,
-        backgroundColor: "#E6E6E6",
-        borderRadius: 8
-    },
-    image1: {
-        width: 30,
-        height: 30
-    },
-    btc1: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginLeft: 9,
-        marginTop: 9
-    },
-    image1Row: {
-        height: 30,
-        flexDirection: "row",
-        marginTop: 8,
-        marginLeft: 10,
-        marginRight: 17
-    },
-    price1: {
-        fontFamily: "roboto-regular",
-        color: "#121212",
-        marginTop: 18,
-        marginLeft: 30
-    },
-    group2Row: {
-        height: 92,
-        flexDirection: "row",
-        flex: 1
-    },
-    materialCardWithoutImageColumn: {
-        width: 335,
-        marginTop: 47,
-        marginLeft: 20
-    },
-    materialCardWithoutImageColumnFiller: {
-        flex: 1
     },
     materialIconButtonsFooter1: {
         height: 65,
@@ -314,53 +173,62 @@ const styles = StyleSheet.create({
         minWidth: 80,
         maxWidth: 168,
         alignItems: "center"
+    }, buttonWrapper2: {
+        flex: 1,
+        minWidth: 80,
+        maxWidth: 168,
+        alignItems: "center"
+    }, buttonWrapper3: {
+        flex: 1,
+        minWidth: 80,
+        maxWidth: 168,
+        alignItems: "center"
+    }, buttonWrapper4: {
+        flex: 1,
+        minWidth: 80,
+        maxWidth: 168,
+        alignItems: "center"
     },
     icon1: {
         backgroundColor: "transparent",
         color: "#FFFFFF",
         fontSize: 24,
         opacity: 0.8
-    },
-    buttonWrapper2: {
-        flex: 1,
-        minWidth: 80,
-        maxWidth: 168,
-        alignItems: "center"
-    },
-    activeIcon: {
+    }, icon3: {
+        backgroundColor: "transparent",
+        color: "#FFFFFF",
+        fontSize: 24,
+        opacity: 0.8
+    }, activeIcon: {
         backgroundColor: "transparent",
         color: "#FFFFFF",
         fontSize: 24
     },
-    buttonWrapper3: {
-        flex: 1,
-        minWidth: 80,
-        maxWidth: 168,
-        alignItems: "center"
+    ////////////////////
+    group2: {
+        width: 300,
+        height: 36,
+        marginLeft: 30
     },
-    icon3: {
-        backgroundColor: "transparent",
-        color: "#FFFFFF",
-        fontSize: 24,
-        opacity: 0.8
-    },
-    buttonWrapper4: {
-        flex: 1,
-        minWidth: 80,
-        maxWidth: 168,
-        alignItems: "center"
-    },
-    icon4: {
-        backgroundColor: "transparent",
-        color: "#FFFFFF",
-        fontSize: 24,
-        opacity: 0.8
+    group: {
+        top: 0,
+        left: 0,
+        width: 100,
+        height: 36,
+        position: "absolute"
     },
     materialButtonWithVioletText: {
         height: 36,
         width: 100
     },
-
+    rect: {
+        top: 35,
+        left: 0,
+        width: 300,
+        height: 1,
+        position: "absolute",
+        backgroundColor: "rgba(74,74,74,1)"
+    },
     groupStack: {
         top: 0,
         left: 0,
@@ -386,6 +254,27 @@ const styles = StyleSheet.create({
         width: 300,
         height: 36
     },
+    group5: {
+        width: 360,
+        height: 86,
+        marginTop: 202
+    },
+    group4: {
+        width: 360,
+        height: 86
+    },
+    rect2: {
+        width: 360,
+        height: 86,
+        backgroundColor: "#E6E6E6"
+    },
+    group3: {
+        width: 332,
+        height: 72,
+        flexDirection: "row",
+        marginTop: 7,
+        marginLeft: 14
+    },
     name: {
         fontFamily: "roboto-regular",
         color: "#121212",
@@ -405,7 +294,12 @@ const styles = StyleSheet.create({
         marginLeft: 18,
         marginTop: 28
     },
-
+    image: {
+        width: 72,
+        height: 72,
+        borderRadius: 36,
+        marginLeft: 18
+    },
     nameRow: {
         height: 72,
         flexDirection: "row",
@@ -455,7 +349,12 @@ const styles = StyleSheet.create({
         marginLeft: 27,
         marginTop: 28
     },
-
+    image1: {
+        width: 72,
+        height: 72,
+        borderRadius: 36,
+        marginLeft: 30
+    },
     name1Row: {
         height: 72,
         flexDirection: "row",
@@ -534,7 +433,12 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         flex: 1
     },
-
+    image2: {
+        width: 72,
+        height: 72,
+        borderRadius: 36,
+        marginLeft: 2
+    },
     name2Row: {
         height: 72,
         flexDirection: "row",
@@ -542,7 +446,7 @@ const styles = StyleSheet.create({
     },
     group2Column: {
         width: 360,
-        marginTop: 31,
+        marginTop: 70,
         marginLeft: 8
     },
     group2ColumnFiller: {
