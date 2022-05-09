@@ -9,6 +9,25 @@ function Accueil(props) {
     const pressWallet = () => props.nav.navigate('Wallet')
     const pressSearch = () => props.nav.navigate('Search')
     const pressSocial = () => props.nav.navigate('Social')
+    var btcPrice = "";
+    URL = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd";
+    connGetPrice = async () => {
+        try {
+
+            var response = await fetch(URL, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                }
+            })
+
+            var data = await response.json();
+            btcPrice = data["bitcoin"]["usd"]
+     } catch (err) {
+        console.log('error signing up: ', err);
+    }
+
     return (
         <View style={styles.container}>
             <ScrollView style={styles.container}>
@@ -37,7 +56,7 @@ function Accueil(props) {
                                         ></Image>
                                         <Text style={styles.btc}>BTC</Text>
                                     </View>
-                                    <Text style={styles.price}>PRICE</Text>
+                                    <Text style={styles.price}>{b}</Text>
                                 </View>
                             </View>
 
@@ -51,7 +70,7 @@ function Accueil(props) {
                                         ></Image>
                                         <Text style={styles.btc}>BTC</Text>
                                     </View>
-                                    <Text style={styles.price}>PRICE</Text>
+                                    <Text style={styles.price}>{btcPrice}</Text>
                                 </View>
                             </View>
 
@@ -66,7 +85,7 @@ function Accueil(props) {
                                         ></Image>
                                         <Text style={styles.btc2}>BTC</Text>
                                     </View>
-                                    <Text style={styles.price2}>PRICE</Text>
+                                    <Text style={styles.price2}>{btcPrice}</Text>
                                 </View>
                             </View>
 
