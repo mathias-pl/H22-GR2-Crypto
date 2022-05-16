@@ -19,4 +19,4 @@ Utilisation des API de Cryptocrunch.io et Coingecko.com pour otebnir des article
 Les trois languages qui devront être utilisés pour la conception de l'application. Les fondements de chacun seront appris par chaque membre de l'équipe. Nous donne un nouveau défi pour apprendre JavaScript et les markup languages et les feuilles de styles.
 
 <h1>Démonstration</h1>
-L'entièreté des images et vidéos de notre projet sont accessibles à partir du fichier _insertHere_ ou à partir du lien Google Cloud suivant : _insertHere_
+L'entièreté des images et vidéos de notre projet sont accessibles à partir du lien Google Cloud suivant : https://drive.google.com/drive/folders/12BVkcYx2hqKmeI841EPPEW9BN_Rb6tac?usp=sharing
