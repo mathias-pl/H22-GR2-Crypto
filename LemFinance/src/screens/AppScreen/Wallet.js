@@ -18,6 +18,21 @@ function Wallet(props) {
                         <Text style={styles.gainers}>GAINERS</Text>
                         <Text style={styles.losers}>LOSERS</Text>
                     </View>
+                    <View>
+                        <View style={styles.Agroup4}>
+                            <View style={styles.Arect2}>
+                                <View style={styles.Aimage2Row}>
+                                    <Image
+                                        source={require("../../../assets/images/BtcIcon.png")}
+                                        resizeMode="contain"
+                                        style={styles.Aimage2}
+                                    ></Image>
+                                    <Text style={styles.Abtc2}>BTC</Text>
+                                </View>
+                                <Text style={styles.Aprice2}>btcPrice</Text>
+                            </View>
+                        </View>
+                    </View>
                     <Text style={styles.myPortfolio}>MY PORTFOLIO</Text>
                     <View style={styles.scrollArea}>
                         <ScrollView
@@ -25,28 +40,55 @@ function Wallet(props) {
                             contentContainerStyle={styles.scrollArea_contentContainerStyle}
                         >
                             <View style={styles.group34}>
+                                <View style={styles.group3}>
+                                    <View style={styles.rect}>
+                                        <View style={styles.group2}>
+                                            <Text style={styles.btcusd}>BTCUSD</Text>
+                                            <Text style={styles.price}>28240.53</Text>
+                                            <Text style={styles.xxYy}>-4.69%</Text>
+                                        </View>
+                                    </View>
+                                </View>
+
+                                <View style={styles.group3}>
+                                    <View style={styles.rect}>
+                                        <View style={styles.group2}>
+                                            <Text style={styles.btcusd}>ETHUSD</Text>
+                                            <Text style={styles.price}>1618.45</Text>
+                                            <Text style={styles.xxYy}>-5.46%</Text>
+                                        </View>
+                                    </View>
+                                </View>
+
+                                <View style={styles.group3}>
+                                    <View style={styles.rect}>
+                                        <View style={styles.group2}>
+                                            <Text style={styles.btcusd}>LUNAUSD</Text>
+                                            <Text style={styles.price}>0.00004968</Text>
+                                            <Text style={styles.xxYy}>-99.98%</Text>
+                                        </View>
+                                    </View>
+                                </View>
+
+                                <View style={styles.group3}>
+                                    <View style={styles.rect}>
+                                        <View style={styles.group2}>
+                                            <Text style={styles.btcusd}>ETHUSD</Text>
+                                            <Text style={styles.price}>1618.45</Text>
+                                            <Text style={styles.xxYy}>-5.46%</Text>
+                                        </View>
+                                    </View>
+                                </View>
 
                                 <View style={styles.group3}>
                                     <View style={styles.rect}>
                                         <View style={styles.group2}>
                                             <Text style={styles.btcusd}>BTCUSD</Text>
-                                            <Text style={styles.price}>PRICE</Text>
-                                            <Text style={styles.xxYy}>XX.YY%</Text>
-                                            <Text style={styles.graphique}>GRAPHIQUE?!</Text>
+                                            <Text style={styles.price}>28240.53</Text>
+                                            <Text style={styles.xxYy}>-4.69%</Text>
                                         </View>
                                     </View>
                                 </View>
-                                <View style={styles.group32}>
-                                    <View style={styles.rect15}>
-                                        <View style={styles.group33}>
-                                            <Text style={styles.btcusd15}>BTCUSD</Text>
-                                            <Text style={styles.price15}>PRICE</Text>
-                                            <Text style={styles.xxYy15}>XX.YY%</Text>
-                                            <Text style={styles.graphique15}>GRAPHIQUE?!</Text>
-                                        </View>
-                                    </View>
-                                </View>
-
                             </View>
                         </ScrollView>
                     </View>
@@ -148,7 +190,7 @@ const styles = StyleSheet.create({
         fontSize: 24
     },
     group: {
-        width: 258,
+        width: 158,
         height: 17,
         flexDirection: "row",
         marginLeft: 31
@@ -180,10 +222,11 @@ const styles = StyleSheet.create({
     },
     group34: {
         height: 713,
-        justifyContent: "space-between",
         width: 319
     },
-    group3: {},
+    group3: {
+        marginTop: 20
+    },
     rect: {
         width: 319,
         height: 34,
@@ -200,6 +243,7 @@ const styles = StyleSheet.create({
     group2: {
         height: 17,
         flexDirection: "row",
+        justifyContent: "space-around",
         width: 303,
         marginTop: 9,
         marginLeft: 10
@@ -224,9 +268,7 @@ const styles = StyleSheet.create({
         color: "#121212",
         marginRight: 25
     },
-    group32: {
-
-    },
+    group32: {},
     rect15: {
         width: 319,
         height: 34,
@@ -267,6 +309,42 @@ const styles = StyleSheet.create({
         color: "#121212",
         marginRight: 25
     },
+    Agroup4: {
+        marginTop: 20,
+        width: 92,
+        height: 92,
+        marginLeft: 25
+    },
+    Arect2: {
+        width: 92,
+        height: 92,
+        backgroundColor: "#E6E6E6",
+        borderRadius: 8
+    },
+    Aimage2Row: {
+        height: 30,
+        flexDirection: "row",
+        marginTop: 8,
+        marginLeft: 10,
+        marginRight: 17
+    },
+    Aimage2: {
+        width: 30,
+        height: 30
+    },
+    Abtc2: {
+        fontFamily: "roboto-regular",
+        color: "#121212",
+        marginLeft: 9,
+        marginTop: 9
+    },
+    Aprice2: {
+    fontFamily: "roboto-regular",
+        color: "#121212",
+        marginTop: 18,
+        marginLeft: 30
+},
+
 });
 
 export default Wallet;

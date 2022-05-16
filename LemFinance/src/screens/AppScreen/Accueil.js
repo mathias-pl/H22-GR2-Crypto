@@ -31,23 +31,8 @@ function Accueil(props) {
 
                         <ScrollView style={styles.group2Row} horizontal={true}>
 
-
-                            <View style={styles.group2}>
-                                <View style={styles.rect}>
-                                    <View style={styles.imageRow}>
-                                        <Image
-                                            source={require("../../../assets/images/BtcIcon.png")}
-                                            resizeMode="contain"
-                                            style={styles.image}
-                                        ></Image>
-                                        <Text style={styles.btc}>BTC</Text>
-                                    </View>
-                                    <Text style={styles.price}>{foo}</Text>
-                                </View>
-                            </View>
-
-                            <View style={styles.group2}>
-                                <View style={styles.rect}>
+                            <View style={styles.group4}>
+                                <View style={styles.rect2}>
                                     <View style={styles.imageRow}>
                                         <Image
                                             source={require("../../../assets/images/BtcIcon.png")}
@@ -60,6 +45,33 @@ function Accueil(props) {
                                 </View>
                             </View>
 
+                            <View style={styles.group4}>
+                                <View style={styles.rect2}>
+                                    <View style={styles.imageRow}>
+                                        <Image
+                                            source={require("../../../assets/images/BtcIcon.png")}
+                                            resizeMode="contain"
+                                            style={styles.image}
+                                        ></Image>
+                                        <Text style={styles.btc}>BTC</Text>
+                                    </View>
+                                    <Text style={styles.price}>btcPrice</Text>
+                                </View>
+                            </View>
+
+                            <View style={styles.group4}>
+                                <View style={styles.rect2}>
+                                    <View style={styles.imageRow}>
+                                        <Image
+                                            source={require("../../../assets/images/BtcIcon.png")}
+                                            resizeMode="contain"
+                                            style={styles.image}
+                                        ></Image>
+                                        <Text style={styles.btc}>BTC</Text>
+                                    </View>
+                                    <Text style={styles.price}>btcPrice</Text>
+                                </View>
+                            </View>
 
                             <View style={styles.group4}>
                                 <View style={styles.rect2}>
@@ -89,9 +101,26 @@ function Accueil(props) {
                                     <Text style={styles.price1}>PRICE</Text>
                                 </View>
                             </View>
-
-
                         </ScrollView>
+                    </View>
+                </View>
+
+                <View style={styles.sgroup5}>
+                    <View style={styles.sgroup4}>
+                        <View style={styles.srect2}>
+                            <View style={styles.sgroup3}>
+                                <View style={styles.snameRow}>
+                                    <Text style={styles.sname}>NAME</Text>
+                                    <Text style={styles.sportfolioValue}>PORTFOLIO_VALUE</Text>
+                                    <Text style={styles.sadd}>DELETE</Text>
+                                    <Image
+                                        source={require("../../../assets/images/avatar.jpg")}
+                                        resizeMode="contain"
+                                        style={styles.simage}
+                                    ></Image>
+                                </View>
+                            </View>
+                        </View>
                     </View>
                 </View>
 
@@ -141,15 +170,15 @@ const styles = StyleSheet.create({
         marginTop: 59
     },
     group: {
-        width: 82,
+        width: 160,
         height: 44,
-        marginTop: -280,
+        marginTop: 20,
         marginLeft: 10
     },
     nomUtilisateur: {
         fontFamily: "roboto-regular",
         color: "#121212",
-        fontSize: 18
+        fontSize: 24
     },
     montantArgent: {
         fontFamily: "roboto-regular",
@@ -159,7 +188,7 @@ const styles = StyleSheet.create({
         width: 330,
         height: 92,
         flexDirection: "row",
-        marginTop: 292,
+        marginTop: 50,
         marginLeft: 5
     },
     group2: {
@@ -310,6 +339,57 @@ const styles = StyleSheet.create({
         backgroundColor: "transparent",
         color: "#FFFFFF",
         fontSize: 24
+    },
+    sgroup5: {
+        width: 360,
+        height: 86,
+        marginTop: 50
+    },
+    sgroup4: {
+        width: 360,
+        height: 86
+    },
+    srect2: {
+        width: 360,
+        height: 86,
+        backgroundColor: "#E6E6E6"
+    },
+    sgroup3: {
+        width: 332,
+        height: 72,
+        flexDirection: "row",
+        marginTop: 7,
+        marginLeft: 14
+    },
+    sname: {
+        fontFamily: "roboto-regular",
+        color: "#121212",
+        marginTop: 28
+    },
+    snameRow: {
+        height: 72,
+        flexDirection: "row",
+        flex: 1
+    },
+    sportfolioValue: {
+        fontFamily: "roboto-regular",
+        color: "#121212",
+        height: 21,
+        width: 123,
+        marginLeft: 13,
+        marginTop: 28
+    },
+    sadd: {
+        fontFamily: "roboto-regular",
+        color: "#121212",
+        marginLeft: 18,
+        marginTop: 28
+    },
+    simage: {
+        width: 72,
+        height: 72,
+        borderRadius: 36,
+        marginLeft: 18
     },
 });
 export default Accueil;

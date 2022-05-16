@@ -51,13 +51,14 @@ const styles = StyleSheet.create({
     fontSize: 28,
     color: "#000",
     paddingBottom: 12,
-    lineHeight: 25
+    lineHeight: 28
   },
   subtitleStyle: {
     fontSize: 22,
     color: "rgba(65,111,16,1)",
     lineHeight: 16,
-    opacity: 0.5
+    opacity: 0.5,
+    lineHeight: 24
   },
   body: {
     padding: 16,
@@ -82,12 +83,14 @@ const styles = StyleSheet.create({
   actionText: {
     fontSize: 24,
     color: "#000",
-    opacity: 0.9
+    opacity: 0.9,
+    lineHeight: 24
   },
   usd: {
     fontSize: 24,
     color: "#000",
-    opacity: 0.9
+    opacity: 0.9,
+    lineHeight: 24
   }
 });
 

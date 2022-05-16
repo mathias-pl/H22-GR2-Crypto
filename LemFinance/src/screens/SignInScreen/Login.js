@@ -52,8 +52,8 @@ export default class Login extends React.Component {
 
                 var data2 = await response2.json();
                 global.name = data2['content']['firstName']
-                alert(name)
-            }else{                alert("ntm mauvais username/mdp")
+                alert("Success")
+            }else{                alert("Success")
             }
 
         } catch (err) {

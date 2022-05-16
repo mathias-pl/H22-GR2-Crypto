@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b952fbca-aa8e-4eec-b03e-1e6202150e82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LemFinance/src/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LemFinance/src/ConnApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithoutImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/Components/Card/MaterialCardWithoutImage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Wallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Wallet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/LemFinance/src/screens/SignInScreen/Signup.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +33,6 @@
     <setting file="file://$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Accueil.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LemFinance/src/screens/AppScreen/Wallet.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_LemFinanceLogin finale.zip/src/screens/Friendlist.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_LemFinanceLogin finale.zip/src/screens/Wallet.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_LemFinanceLogin finale.zip/src/screens/Search.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,7 +70,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26fc7706-891d-450f-b9fa-38e6aed14c6d" name="Changes" comment="" />
+      <changelist id="b952fbca-aa8e-4eec-b03e-1e6202150e82" name="Changes" comment="" />
       <created>1647282694274</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -82,6 +82,7 @@
       <workItem from="1649118807494" duration="1016000" />
       <workItem from="1649696773468" duration="13552000" />
       <workItem from="1650035315751" duration="336000" />
+      <workItem from="1652717069987" duration="5122000" />
     </task>
     <servers />
   </component>

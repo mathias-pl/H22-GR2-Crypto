@@ -35,7 +35,7 @@ export default class Signup extends React.Component {
 
             var data = await response.json();
 
-            alert(data["success"]);
+            alert("success");
 
         } catch (err) {
             console.log('error signing up: ', err);
